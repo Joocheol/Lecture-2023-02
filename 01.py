@@ -5,6 +5,8 @@ from manim_voiceover.services.azure import AzureService
 from transformer_functions import *
 from constants import *
 
+
+
 class B(VoiceoverScene):
     def construct(self):
         
@@ -24,21 +26,14 @@ class B(VoiceoverScene):
         temp.align_to(right, DOWN)
 
         a1 = Arrows_setup_1(t1, m1)
-        whole.add(a1)
         a2 = Arrows_setup_3(m1, m2)
-        whole.add(a2)
         a3 = Arrows_setup_2(m2, center)
-        whole.add(a3)
         a4 = Arrows_setup_1(t2, m3)
-        whole.add(a4)
         a5 = Arrows_setup_4(m3, m4)
-        whole.add(a5)
         a6 = Arrows_setup_1(m4, center)
-        whole.add(a6)
         a7 = Arrows_setup_1(center[:5], m)
-        whole.add(a7)
         a8 = Arrows_setup_1(m, t3)
-        whole.add(a8)
+        whole.add(a1, a2, a3, a4, a5, a6, a7, a8)
 
 
         self.play(Write(whole.scale(0.4)))
