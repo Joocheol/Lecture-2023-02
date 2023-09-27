@@ -13,9 +13,9 @@ class VoiceoverDemo(VoiceoverScene):
         )
 
         ba = Code(file_name="code_ba.py", tab_width=4, insert_line_no=False, background="window", language="python").rescale_to_fit(12,0)
-        ca = Code(code=code_ca, tab_width=4, insert_line_no=False, background="window", language="python").rescale_to_fit(12,0)
-        gsa = Code(code=code_gsa, tab_width=4, insert_line_no=False, background="window", language="python").rescale_to_fit(12,0)
-        csa = Code(code=code_csa, tab_width=4, insert_line_no=False, background="window", language="python").rescale_to_fit(12,0)
+        ca = Code(file_name="code_ca.py", tab_width=4, insert_line_no=False, background="window", language="python").rescale_to_fit(12,0)
+        gsa = Code(file_name="code_gsa.py", tab_width=4, insert_line_no=False, background="window", language="python").rescale_to_fit(12,0)
+        csa = Code(file_name="code_csa.py", tab_width=4, insert_line_no=False, background="window", language="python").rescale_to_fit(12,0)
 
         v = VGroup(ba.copy(), ca.copy(), gsa.copy(), csa.copy()).arrange(RIGHT).scale(0.2).to_edge(UP)
         self.add(v)
@@ -227,47 +227,3 @@ class VoiceoverDemo(VoiceoverScene):
 
 
 
-code_ca = """
-class CrossAttention(BaseAttention):
-  def call(self, x, context):
-    attn_output, attn_scores = self.mha(
-        query=x,
-        key=context,
-        value=context)
-
-    x = self.add([x, attn_output])
-    x = self.layernorm(x)
-    return x
-
-    # continued                                                                .
-"""
-
-code_gsa = """
-class GlobalSelfAttention(BaseAttention):
-  def call(self, x):
-    attn_output = self.mha(
-        query=x,
-        value=x,
-        key=x)
-
-    x = self.add([x, attn_output])
-    x = self.layernorm(x)
-    return x
-
-    # continued                                                                .
-"""
-
-code_csa = """
-class CausalSelfAttention(BaseAttention):
-  def call(self, x):
-    attn_output = self.mha(
-        query=x,
-        value=x,
-        key=x,
-        use_causal_mask = True)
-    x = self.add([x, attn_output])
-    x = self.layernorm(x)
-    return x
-
-    # continued                                                                .
-"""
