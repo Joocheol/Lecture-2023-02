@@ -5,7 +5,16 @@ from manim_voiceover.services.azure import AzureService
 from transformer_functions import *
 from constants import *
 
+class Explainer(VoiceoverScene):
+    def construct(self):
+        self.set_speech_service(
+            AzureService(
+                voice="en-US-JennyMultilingualNeural",
+                style="newscast-casual",
+            )
+        )
 
+        self.wait()
 
 class B(VoiceoverScene):
     def construct(self):
@@ -25,14 +34,14 @@ class B(VoiceoverScene):
         whole = VGroup(temp, right).arrange(RIGHT, buff=2)
         temp.align_to(right, DOWN)
 
-        a1 = Arrows_setup_1(t1, m1)
-        a2 = Arrows_setup_3(m1, m2)
-        a3 = Arrows_setup_2(m2, center)
-        a4 = Arrows_setup_1(t2, m3)
-        a5 = Arrows_setup_4(m3, m4)
-        a6 = Arrows_setup_1(m4, center)
-        a7 = Arrows_setup_1(center[:5], m)
-        a8 = Arrows_setup_1(m, t3)
+        a1 = arrows_setup_1(t1, m1)
+        a2 = arrows_setup_3(m1, m2)
+        a3 = arrows_setup_2(m2, center)
+        a4 = arrows_setup_1(t2, m3)
+        a5 = arrows_setup_4(m3, m4)
+        a6 = arrows_setup_1(m4, center)
+        a7 = arrows_setup_1(center[:5], m)
+        a8 = arrows_setup_1(m, t3)
         whole.add(a1, a2, a3, a4, a5, a6, a7, a8)
 
 

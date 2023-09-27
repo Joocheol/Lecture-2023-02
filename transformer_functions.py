@@ -31,20 +31,6 @@ def arrow_setup(block_1, block_2, block_3, block_4, block_5):
 
     return temp
 
-def arrows(start, arg1, arg2):
-
-    temp = VGroup()
-    temp.add(Dot().move_to(start))
-
-    for i, j in zip(arg1, arg2):
-        end = start + i * j
-        temp.add(Line(start, end))
-        start = end
-
-    temp.add(Dot().move_to(end))
-
-    return temp
-
 def setup():
     # Masked MHA
     text = Tex(r"Masked\\ Multi-Head\\ Attention")
@@ -97,7 +83,7 @@ def Box(rows, cols, is_causal=False, is_emph=False, is_long=False):
     return vg
 
 
-def Arrows_setup_1(m, m1):
+def arrows_setup_1(m, m1):
     vg = VGroup()
 
     dist = sum(m1.get_bottom() - m.get_top())
@@ -110,7 +96,7 @@ def Arrows_setup_1(m, m1):
 
     return vg
 
-def Arrows_setup_2(m, m1):
+def arrows_setup_2(m, m1):
     vg = VGroup()
 
     for i, j in enumerate(m):
@@ -121,7 +107,7 @@ def Arrows_setup_2(m, m1):
 
     return vg
 
-def Arrows_setup_3(m, m1):
+def arrows_setup_3(m, m1):
     vg = VGroup()
 
     for i in range(len(m)):
@@ -132,7 +118,7 @@ def Arrows_setup_3(m, m1):
 
     return vg
 
-def Arrows_setup_4(m, m1):
+def arrows_setup_4(m, m1):
     vg = VGroup()
 
     for i in range(len(m)):
