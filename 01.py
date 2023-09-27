@@ -14,6 +14,10 @@ class Explainer(VoiceoverScene):
             )
         )
 
+        archi = archi_setup()
+
+        self.play(Write(archi[1]))
+
         self.wait()
 
 class B(VoiceoverScene):
@@ -65,7 +69,7 @@ class Transformer(Scene):
         transformer = VGroup(encoder, decoder).arrange(RIGHT, buff=btn)
         encoder.align_to(decoder, DOWN)
 
-        transformer.add(*arrow_setup(block_1, block_2, block_3, block_4, block_5))
+        transformer.add(*arrows_setup(block_1, block_2, block_3, block_4, block_5))
 
         self.play(Write(transformer.scale(0.66)))
         self.wait(5)

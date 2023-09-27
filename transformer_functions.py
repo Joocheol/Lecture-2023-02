@@ -1,7 +1,7 @@
 from manim import *
 from constants import *
 
-def arrow_setup(block_1, block_2, block_3, block_4, block_5):
+def arrows_setup(block_1, block_2, block_3, block_4, block_5):
 
     temp = VGroup()
     # -> block_1
@@ -171,3 +171,20 @@ def setup_text_box():
     vg_3.arrange(DOWN, buff=0).rotate(PI/2)
 
     return vg_1, vg_2, vg_3
+
+def archi_setup():
+    mmha, mha, ann, ff = setup()
+
+    block_1 = VGroup(mha.copy(), Line(ORIGIN, UP*small_buff), ann.copy()).arrange(UP, buff=0)
+    block_2 = VGroup(ff.copy(), Line(ORIGIN, UP*small_buff), ann.copy()).arrange(UP, buff=0)
+    block_3 = VGroup(mmha.copy(), Line(ORIGIN, UP*small_buff), ann.copy()).arrange(UP, buff=0)
+    block_4 = VGroup(mha.copy(), Line(ORIGIN, UP*small_buff), ann.copy()).arrange(UP, buff=0)
+    block_5 = VGroup(ff.copy(), Line(ORIGIN, UP*small_buff), ann.copy()).arrange(UP, buff=0)
+
+    encoder = VGroup(block_1, block_2).arrange(UP, buff=1)
+    decoder = VGroup(block_3, block_4, block_5).arrange(UP, buff=block_buff)
+
+    transformer = VGroup(encoder, decoder).arrange(RIGHT, buff=btn)
+    encoder.align_to(decoder, DOWN)
+    
+    return transformer
