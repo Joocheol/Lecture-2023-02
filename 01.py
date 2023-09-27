@@ -2,7 +2,71 @@ from manim import *
 from manim_voiceover import VoiceoverScene
 from manim_voiceover.services.azure import AzureService
 
-class VoiceoverDemo(VoiceoverScene):
+from transformer_functions import *
+from constants import *
+
+class B(VoiceoverScene):
+    def construct(self):
+        
+        center = Box(5,5)
+        m = Box(1,5)
+        m1 = m.copy()
+        m2 = m.copy()
+        m3 = m.copy()
+        m4 = m.copy()
+        t1, t2, t3 = setup_text_box()
+
+        temp = VGroup(m2, VGroup(m1, t1).arrange(DOWN, buff=0.5)).arrange(DOWN, buff=1)
+        temp_1 = VGroup(m4, VGroup(m3, t2).arrange(DOWN, buff=0.5)).arrange(DOWN, buff=1)
+        temp_2 = VGroup(m, t3).arrange(UP, buff=0.5)
+        right = VGroup(temp_1, center, temp_2).arrange(UP, buff=1)
+        whole = VGroup(temp, right).arrange(RIGHT, buff=2)
+        temp.align_to(right, DOWN)
+
+        a1 = Arrows_setup_1(t1, m1)
+        whole.add(a1)
+        a2 = Arrows_setup_3(m1, m2)
+        whole.add(a2)
+        a3 = Arrows_setup_2(m2, center)
+        whole.add(a3)
+        a4 = Arrows_setup_1(t2, m3)
+        whole.add(a4)
+        a5 = Arrows_setup_4(m3, m4)
+        whole.add(a5)
+        a6 = Arrows_setup_1(m4, center)
+        whole.add(a6)
+        a7 = Arrows_setup_1(center[:5], m)
+        whole.add(a7)
+        a8 = Arrows_setup_1(m, t3)
+        whole.add(a8)
+
+
+        self.play(Write(whole.scale(0.4)))
+        self.wait(10)
+
+class Transformer(Scene):
+    def construct(self):
+
+        mmha, mha, ann, ff = setup()
+
+        block_1 = VGroup(mha.copy(), Line(ORIGIN, UP*small_buff), ann.copy()).arrange(UP, buff=0)
+        block_2 = VGroup(ff.copy(), Line(ORIGIN, UP*small_buff), ann.copy()).arrange(UP, buff=0)
+        block_3 = VGroup(mmha.copy(), Line(ORIGIN, UP*small_buff), ann.copy()).arrange(UP, buff=0)
+        block_4 = VGroup(mha.copy(), Line(ORIGIN, UP*small_buff), ann.copy()).arrange(UP, buff=0)
+        block_5 = VGroup(ff.copy(), Line(ORIGIN, UP*small_buff), ann.copy()).arrange(UP, buff=0)
+
+        encoder = VGroup(block_1, block_2).arrange(UP, buff=1)
+        decoder = VGroup(block_3, block_4, block_5).arrange(UP, buff=block_buff)
+
+        transformer = VGroup(encoder, decoder).arrange(RIGHT, buff=btn)
+        encoder.align_to(decoder, DOWN)
+
+        transformer.add(*arrow_setup(block_1, block_2, block_3, block_4, block_5))
+
+        self.play(Write(transformer.scale(0.66)))
+        self.wait(5)
+
+class TFCode(VoiceoverScene):
     def construct(self):
         # Initialize speech synthesis using Azure's TTS API
         self.set_speech_service(
