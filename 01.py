@@ -21,13 +21,41 @@ class Explainer(VoiceoverScene):
         a = archi_arrows_setup(archi[0][0], archi[0][1], archi[1][0], archi[1][1], archi[1][2])
         a1, a2, a3, a4, a5, a6, a7, a8 = box_arrows_setup(boxes[0], boxes[1][0], boxes[1][1], boxes[1][2])
 
-        self.base(ba, ca, gsa, csa, v)
-        self.ca(ba, ca, gsa, csa, v)
+        self.explain_architecture( archi, a, boxes, a1, a2, a3, a4, a5, a6, a7, a8)
+        # self.base(ba, ca, gsa, csa, v)
+        # self.ca(ba, ca, gsa, csa, v)
 
 
 
 
+    def explain_architecture(self, archi, a, boxes, a1, a2, a3, a4, a5, a6, a7, a8):
 
+        self.play(Write(archi.scale(0.6)))
+        self.play(Write(a.scale(0.6)))
+
+        with self.voiceover(text="""<lang xml:lang="ko-KR">
+                            이것이 transformer 아키텍쳐입니다.
+                            보기만 해도 어지럽습니다.
+                            </lang>""") as tracker:
+            self.wait()
+        self.wait(0.5)
+
+        with self.voiceover(text="""<lang xml:lang="ko-KR">
+                            우리의 목표는 여기에 보이는 모든 부분을, 하나도 남김없이 모두 이해하는 것입니다.
+                            </lang>""") as tracker:
+            self.wait()
+        self.wait(1)
+
+        with self.voiceover(text="""<lang xml:lang="ko-KR">
+                            이 그림을 다른 형식으로 표현해보겠습니다. 
+                            </lang>""") as tracker:
+            self.play(ReplacementTransform(VGroup(archi, a), boxes.add(a1, a2, a3, a4, a5, a6, a7, a8).scale(0.4)), run_time=tracker.duration)
+        self.wait(1)
+
+        self.play(FadeOut(boxes))
+        self.play(FadeIn(VGroup(archi.copy(), a.copy())))
+
+        
 
     def ca(self, ba, ca, gsa, csa, v):
 

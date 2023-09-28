@@ -36290,5 +36290,3989 @@
     ],
     "original_audio": "lang-xml-lang-ko-kr-isangyi-base-attention-8f362382.mp3",
     "final_audio": "lang-xml-lang-ko-kr-isangyi-base-attention-8f362382.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744 \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744 \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744 \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744 \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": 53,
+        "word_length": 1,
+        "text": "\ud574",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": -231,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": 56,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45000000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "g",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 47500000,
+        "duration_milliseconds": 325,
+        "text_offset": 64,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50875000,
+        "duration_milliseconds": 537,
+        "text_offset": 68,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56375000,
+        "duration_milliseconds": 350,
+        "text_offset": 72,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60000000,
+        "duration_milliseconds": 437,
+        "text_offset": 76,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 64500000,
+        "duration_milliseconds": 362,
+        "text_offset": 80,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 68250000,
+        "duration_milliseconds": 362,
+        "text_offset": 83,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 72000000,
+        "duration_milliseconds": 475,
+        "text_offset": 87,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 76875000,
+        "duration_milliseconds": 712,
+        "text_offset": 91,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 84125000,
+        "duration_milliseconds": 375,
+        "text_offset": 96,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 88000000,
+        "duration_milliseconds": 475,
+        "text_offset": 99,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 92875000,
+        "duration_milliseconds": 612,
+        "text_offset": 104,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-2d24dab3.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-2d24dab3.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": 77,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": -231,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": -231,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45000000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "n",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 47500000,
+        "duration_milliseconds": 325,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50875000,
+        "duration_milliseconds": 562,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56625000,
+        "duration_milliseconds": 350,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60250000,
+        "duration_milliseconds": 400,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 64375000,
+        "duration_milliseconds": 312,
+        "text_offset": 80,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67625000,
+        "duration_milliseconds": 512,
+        "text_offset": 83,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 73750000,
+        "duration_milliseconds": 137,
+        "text_offset": 87,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 75125000,
+        "duration_milliseconds": 462,
+        "text_offset": 88,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 79875000,
+        "duration_milliseconds": 737,
+        "text_offset": 92,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 87375000,
+        "duration_milliseconds": 362,
+        "text_offset": 97,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 91125000,
+        "duration_milliseconds": 475,
+        "text_offset": 100,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 96000000,
+        "duration_milliseconds": 600,
+        "text_offset": 105,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-784e0bd8.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-784e0bd8.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": 77,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": -231,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": -231,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45000000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "n",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 47500000,
+        "duration_milliseconds": 325,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50875000,
+        "duration_milliseconds": 562,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56625000,
+        "duration_milliseconds": 350,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60250000,
+        "duration_milliseconds": 400,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 64375000,
+        "duration_milliseconds": 312,
+        "text_offset": 80,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67625000,
+        "duration_milliseconds": 512,
+        "text_offset": 83,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 73750000,
+        "duration_milliseconds": 137,
+        "text_offset": 87,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 75125000,
+        "duration_milliseconds": 462,
+        "text_offset": 88,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 79875000,
+        "duration_milliseconds": 737,
+        "text_offset": 92,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 87375000,
+        "duration_milliseconds": 362,
+        "text_offset": 97,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 91125000,
+        "duration_milliseconds": 475,
+        "text_offset": 100,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 96000000,
+        "duration_milliseconds": 600,
+        "text_offset": 105,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-784e0bd8.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-784e0bd8.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": 77,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": -231,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": -231,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45000000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "n",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 47500000,
+        "duration_milliseconds": 325,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50875000,
+        "duration_milliseconds": 562,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56625000,
+        "duration_milliseconds": 350,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60250000,
+        "duration_milliseconds": 400,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 64375000,
+        "duration_milliseconds": 312,
+        "text_offset": 80,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67625000,
+        "duration_milliseconds": 512,
+        "text_offset": 83,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 73750000,
+        "duration_milliseconds": 137,
+        "text_offset": 87,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 75125000,
+        "duration_milliseconds": 462,
+        "text_offset": 88,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 79875000,
+        "duration_milliseconds": 737,
+        "text_offset": 92,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 87375000,
+        "duration_milliseconds": 362,
+        "text_offset": 97,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 91125000,
+        "duration_milliseconds": 475,
+        "text_offset": 100,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 96000000,
+        "duration_milliseconds": 600,
+        "text_offset": 105,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-784e0bd8.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-784e0bd8.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": 77,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": -231,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": -231,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45000000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "n",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 47500000,
+        "duration_milliseconds": 325,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50875000,
+        "duration_milliseconds": 562,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56625000,
+        "duration_milliseconds": 350,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60250000,
+        "duration_milliseconds": 400,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 64375000,
+        "duration_milliseconds": 312,
+        "text_offset": 80,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67625000,
+        "duration_milliseconds": 512,
+        "text_offset": 83,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 73750000,
+        "duration_milliseconds": 137,
+        "text_offset": 87,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 75125000,
+        "duration_milliseconds": 462,
+        "text_offset": 88,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 79875000,
+        "duration_milliseconds": 737,
+        "text_offset": 92,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 87375000,
+        "duration_milliseconds": 362,
+        "text_offset": 97,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 91125000,
+        "duration_milliseconds": 475,
+        "text_offset": 100,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 96000000,
+        "duration_milliseconds": 600,
+        "text_offset": 105,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-784e0bd8.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-784e0bd8.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": 77,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": -231,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": -231,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45000000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "n",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 47500000,
+        "duration_milliseconds": 325,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50875000,
+        "duration_milliseconds": 562,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56625000,
+        "duration_milliseconds": 350,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60250000,
+        "duration_milliseconds": 400,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 64375000,
+        "duration_milliseconds": 312,
+        "text_offset": 80,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67625000,
+        "duration_milliseconds": 512,
+        "text_offset": 83,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 73750000,
+        "duration_milliseconds": 137,
+        "text_offset": 87,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 75125000,
+        "duration_milliseconds": 462,
+        "text_offset": 88,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 79875000,
+        "duration_milliseconds": 737,
+        "text_offset": 92,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 87375000,
+        "duration_milliseconds": 362,
+        "text_offset": 97,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 91125000,
+        "duration_milliseconds": 475,
+        "text_offset": 100,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 96000000,
+        "duration_milliseconds": 600,
+        "text_offset": 105,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-784e0bd8.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-784e0bd8.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": 77,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": -231,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": -231,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45000000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "n",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 47500000,
+        "duration_milliseconds": 325,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50875000,
+        "duration_milliseconds": 562,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56625000,
+        "duration_milliseconds": 350,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60250000,
+        "duration_milliseconds": 400,
+        "text_offset": -231,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 64375000,
+        "duration_milliseconds": 312,
+        "text_offset": 80,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67625000,
+        "duration_milliseconds": 512,
+        "text_offset": 83,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 73750000,
+        "duration_milliseconds": 137,
+        "text_offset": 87,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 75125000,
+        "duration_milliseconds": 462,
+        "text_offset": 88,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 79875000,
+        "duration_milliseconds": 737,
+        "text_offset": 92,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 87375000,
+        "duration_milliseconds": 362,
+        "text_offset": 97,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 91125000,
+        "duration_milliseconds": 475,
+        "text_offset": 100,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 96000000,
+        "duration_milliseconds": 600,
+        "text_offset": 105,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-784e0bd8.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-784e0bd8.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "c",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": 49,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": 53,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": 56,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 562,
+        "text_offset": 28,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 350,
+        "text_offset": 32,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13250000,
+        "duration_milliseconds": 400,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 312,
+        "text_offset": 40,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20625000,
+        "duration_milliseconds": 512,
+        "text_offset": 43,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 137,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 28125000,
+        "duration_milliseconds": 462,
+        "text_offset": 48,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32875000,
+        "duration_milliseconds": 737,
+        "text_offset": 52,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40375000,
+        "duration_milliseconds": 362,
+        "text_offset": 57,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44125000,
+        "duration_milliseconds": 475,
+        "text_offset": 60,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49000000,
+        "duration_milliseconds": 600,
+        "text_offset": 65,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 175,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2375000,
+        "duration_milliseconds": 362,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "\uadf8\ub9bc\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6125000,
+        "duration_milliseconds": 312,
+        "text_offset": 30,
+        "word_length": 2,
+        "text": "\ub2e4\ub978",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9375000,
+        "duration_milliseconds": 562,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\ud615\uc2dd\uc73c\ub85c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 212,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "\ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "c",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": 49,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": 53,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": 56,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 562,
+        "text_offset": 28,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 350,
+        "text_offset": 32,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13250000,
+        "duration_milliseconds": 400,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 312,
+        "text_offset": 40,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20625000,
+        "duration_milliseconds": 512,
+        "text_offset": 43,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 137,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 28125000,
+        "duration_milliseconds": 462,
+        "text_offset": 48,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32875000,
+        "duration_milliseconds": 737,
+        "text_offset": 52,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40375000,
+        "duration_milliseconds": 362,
+        "text_offset": 57,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44125000,
+        "duration_milliseconds": 475,
+        "text_offset": 60,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49000000,
+        "duration_milliseconds": 600,
+        "text_offset": 65,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 175,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2375000,
+        "duration_milliseconds": 362,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "\uadf8\ub9bc\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6125000,
+        "duration_milliseconds": 312,
+        "text_offset": 30,
+        "word_length": 2,
+        "text": "\ub2e4\ub978",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9375000,
+        "duration_milliseconds": 562,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\ud615\uc2dd\uc73c\ub85c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 212,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "\ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "c",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": 49,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": 53,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": 56,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 562,
+        "text_offset": 28,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 350,
+        "text_offset": 32,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13250000,
+        "duration_milliseconds": 400,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 312,
+        "text_offset": 40,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20625000,
+        "duration_milliseconds": 512,
+        "text_offset": 43,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 137,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 28125000,
+        "duration_milliseconds": 462,
+        "text_offset": 48,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32875000,
+        "duration_milliseconds": 737,
+        "text_offset": 52,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40375000,
+        "duration_milliseconds": 362,
+        "text_offset": 57,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44125000,
+        "duration_milliseconds": 475,
+        "text_offset": 60,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49000000,
+        "duration_milliseconds": 600,
+        "text_offset": 65,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 175,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2375000,
+        "duration_milliseconds": 362,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "\uadf8\ub9bc\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6125000,
+        "duration_milliseconds": 312,
+        "text_offset": 30,
+        "word_length": 2,
+        "text": "\ub2e4\ub978",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9375000,
+        "duration_milliseconds": 562,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\ud615\uc2dd\uc73c\ub85c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 212,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "\ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "c",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": 49,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": 53,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": 56,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 562,
+        "text_offset": 28,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 350,
+        "text_offset": 32,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13250000,
+        "duration_milliseconds": 400,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 312,
+        "text_offset": 40,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20625000,
+        "duration_milliseconds": 512,
+        "text_offset": 43,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 137,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 28125000,
+        "duration_milliseconds": 462,
+        "text_offset": 48,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32875000,
+        "duration_milliseconds": 737,
+        "text_offset": 52,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40375000,
+        "duration_milliseconds": 362,
+        "text_offset": 57,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44125000,
+        "duration_milliseconds": 475,
+        "text_offset": 60,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49000000,
+        "duration_milliseconds": 600,
+        "text_offset": 65,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 175,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2375000,
+        "duration_milliseconds": 362,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "\uadf8\ub9bc\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6125000,
+        "duration_milliseconds": 312,
+        "text_offset": 30,
+        "word_length": 2,
+        "text": "\ub2e4\ub978",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9375000,
+        "duration_milliseconds": 562,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\ud615\uc2dd\uc73c\ub85c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 212,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "\ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "c",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": 49,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": 53,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": 56,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 562,
+        "text_offset": 28,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 350,
+        "text_offset": 32,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13250000,
+        "duration_milliseconds": 400,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 312,
+        "text_offset": 40,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20625000,
+        "duration_milliseconds": 512,
+        "text_offset": 43,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 137,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 28125000,
+        "duration_milliseconds": 462,
+        "text_offset": 48,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32875000,
+        "duration_milliseconds": 737,
+        "text_offset": 52,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40375000,
+        "duration_milliseconds": 362,
+        "text_offset": 57,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44125000,
+        "duration_milliseconds": 475,
+        "text_offset": 60,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49000000,
+        "duration_milliseconds": 600,
+        "text_offset": 65,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 175,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2375000,
+        "duration_milliseconds": 362,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "\uadf8\ub9bc\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6125000,
+        "duration_milliseconds": 312,
+        "text_offset": 30,
+        "word_length": 2,
+        "text": "\ub2e4\ub978",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9375000,
+        "duration_milliseconds": 562,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\ud615\uc2dd\uc73c\ub85c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 212,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "\ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "c",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": 49,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": 53,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": 56,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 562,
+        "text_offset": 28,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 350,
+        "text_offset": 32,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13250000,
+        "duration_milliseconds": 400,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 312,
+        "text_offset": 40,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20625000,
+        "duration_milliseconds": 512,
+        "text_offset": 43,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 137,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 28125000,
+        "duration_milliseconds": 462,
+        "text_offset": 48,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32875000,
+        "duration_milliseconds": 737,
+        "text_offset": 52,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40375000,
+        "duration_milliseconds": 362,
+        "text_offset": 57,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44125000,
+        "duration_milliseconds": 475,
+        "text_offset": 60,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49000000,
+        "duration_milliseconds": 600,
+        "text_offset": 65,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 175,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2375000,
+        "duration_milliseconds": 362,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "\uadf8\ub9bc\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6125000,
+        "duration_milliseconds": 312,
+        "text_offset": 30,
+        "word_length": 2,
+        "text": "\ub2e4\ub978",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9375000,
+        "duration_milliseconds": 562,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\ud615\uc2dd\uc73c\ub85c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 212,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "\ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "c",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": 49,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": 53,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": 56,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 562,
+        "text_offset": 28,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 350,
+        "text_offset": 32,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13250000,
+        "duration_milliseconds": 400,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 312,
+        "text_offset": 40,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20625000,
+        "duration_milliseconds": 512,
+        "text_offset": 43,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 137,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 28125000,
+        "duration_milliseconds": 462,
+        "text_offset": 48,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32875000,
+        "duration_milliseconds": 737,
+        "text_offset": 52,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40375000,
+        "duration_milliseconds": 362,
+        "text_offset": 57,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44125000,
+        "duration_milliseconds": 475,
+        "text_offset": 60,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49000000,
+        "duration_milliseconds": 600,
+        "text_offset": 65,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 175,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2375000,
+        "duration_milliseconds": 362,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "\uadf8\ub9bc\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6125000,
+        "duration_milliseconds": 312,
+        "text_offset": 30,
+        "word_length": 2,
+        "text": "\ub2e4\ub978",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9375000,
+        "duration_milliseconds": 562,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\ud615\uc2dd\uc73c\ub85c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 212,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "\ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "c",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": 49,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": 53,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": 56,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 562,
+        "text_offset": 28,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 350,
+        "text_offset": 32,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13250000,
+        "duration_milliseconds": 400,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 312,
+        "text_offset": 40,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20625000,
+        "duration_milliseconds": 512,
+        "text_offset": 43,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 137,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 28125000,
+        "duration_milliseconds": 462,
+        "text_offset": 48,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32875000,
+        "duration_milliseconds": 737,
+        "text_offset": 52,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40375000,
+        "duration_milliseconds": 362,
+        "text_offset": 57,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44125000,
+        "duration_milliseconds": 475,
+        "text_offset": 60,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49000000,
+        "duration_milliseconds": 600,
+        "text_offset": 65,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 175,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2375000,
+        "duration_milliseconds": 362,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "\uadf8\ub9bc\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6125000,
+        "duration_milliseconds": 312,
+        "text_offset": 30,
+        "word_length": 2,
+        "text": "\ub2e4\ub978",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9375000,
+        "duration_milliseconds": 562,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\ud615\uc2dd\uc73c\ub85c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 212,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "\ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "c",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": 49,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": 53,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": 56,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 562,
+        "text_offset": 28,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 350,
+        "text_offset": 32,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13250000,
+        "duration_milliseconds": 400,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 312,
+        "text_offset": 40,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20625000,
+        "duration_milliseconds": 512,
+        "text_offset": 43,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 137,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 28125000,
+        "duration_milliseconds": 462,
+        "text_offset": 48,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32875000,
+        "duration_milliseconds": 737,
+        "text_offset": 52,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40375000,
+        "duration_milliseconds": 362,
+        "text_offset": 57,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44125000,
+        "duration_milliseconds": 475,
+        "text_offset": 60,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49000000,
+        "duration_milliseconds": 600,
+        "text_offset": 65,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 175,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2375000,
+        "duration_milliseconds": 362,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "\uadf8\ub9bc\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6125000,
+        "duration_milliseconds": 312,
+        "text_offset": 30,
+        "word_length": 2,
+        "text": "\ub2e4\ub978",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9375000,
+        "duration_milliseconds": 562,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\ud615\uc2dd\uc73c\ub85c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 212,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "\ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "c",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": 49,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": 53,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": 56,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 562,
+        "text_offset": 28,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 350,
+        "text_offset": 32,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13250000,
+        "duration_milliseconds": 400,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 312,
+        "text_offset": 40,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20625000,
+        "duration_milliseconds": 512,
+        "text_offset": 43,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 137,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 28125000,
+        "duration_milliseconds": 462,
+        "text_offset": 48,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32875000,
+        "duration_milliseconds": 737,
+        "text_offset": 52,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40375000,
+        "duration_milliseconds": 362,
+        "text_offset": 57,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44125000,
+        "duration_milliseconds": 475,
+        "text_offset": 60,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49000000,
+        "duration_milliseconds": 600,
+        "text_offset": 65,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 175,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2375000,
+        "duration_milliseconds": 362,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "\uadf8\ub9bc\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6125000,
+        "duration_milliseconds": 312,
+        "text_offset": 30,
+        "word_length": 2,
+        "text": "\ub2e4\ub978",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9375000,
+        "duration_milliseconds": 562,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\ud615\uc2dd\uc73c\ub85c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 212,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "\ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774\uac83\uc774 transformer \uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4. \ubcf4\uae30\ub9cc \ud574\ub3c4 \uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 862,
+        "text_offset": 28,
+        "word_length": 11,
+        "text": "transformer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 7,
+        "text": "\uc544\ud0a4\ud14d\uccd0\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25250000,
+        "duration_milliseconds": 100,
+        "text_offset": -231,
+        "word_length": 1,
+        "text": "c",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 437,
+        "text_offset": 49,
+        "word_length": 3,
+        "text": "\ubcf4\uae30\ub9cc",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32250000,
+        "duration_milliseconds": 350,
+        "text_offset": 53,
+        "word_length": 2,
+        "text": "\ud574\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 900,
+        "text_offset": 56,
+        "word_length": 6,
+        "text": "\uc5b4\uc9c0\ub7fd\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeosi-transformer-9fbc17e7.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc6b0\ub9ac\uc758 \ubaa9\ud45c\ub294 \uc5ec\uae30\uc5d0 \ubcf4\uc774\ub294 \ubaa8\ub4e0 \ubd80\ubd84\uc744, \ud558\ub098\ub3c4 \ub0a8\uae40\uc5c6\uc774 \ubaa8\ub450 \uc774\ud574\ud558\ub294 \uac83\uc785\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "\uc6b0\ub9ac\uc758",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 562,
+        "text_offset": 28,
+        "word_length": 3,
+        "text": "\ubaa9\ud45c\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 350,
+        "text_offset": 32,
+        "word_length": 3,
+        "text": "\uc5ec\uae30\uc5d0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13250000,
+        "duration_milliseconds": 400,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\ubcf4\uc774\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 312,
+        "text_offset": 40,
+        "word_length": 2,
+        "text": "\ubaa8\ub4e0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20625000,
+        "duration_milliseconds": 512,
+        "text_offset": 43,
+        "word_length": 3,
+        "text": "\ubd80\ubd84\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 137,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": " ",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 28125000,
+        "duration_milliseconds": 462,
+        "text_offset": 48,
+        "word_length": 3,
+        "text": "\ud558\ub098\ub3c4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32875000,
+        "duration_milliseconds": 737,
+        "text_offset": 52,
+        "word_length": 4,
+        "text": "\ub0a8\uae40\uc5c6\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40375000,
+        "duration_milliseconds": 362,
+        "text_offset": 57,
+        "word_length": 2,
+        "text": "\ubaa8\ub450",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44125000,
+        "duration_milliseconds": 475,
+        "text_offset": 60,
+        "word_length": 4,
+        "text": "\uc774\ud574\ud558\ub294",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49000000,
+        "duration_milliseconds": 600,
+        "text_offset": 65,
+        "word_length": 4,
+        "text": "\uac83\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-uriyi-mogpyoneun-yeogie-cc0385bf.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\"> \uc774 \uadf8\ub9bc\uc744 \ub2e4\ub978 \ud615\uc2dd\uc73c\ub85c \ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4. </lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 175,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": "\uc774",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2375000,
+        "duration_milliseconds": 362,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "\uadf8\ub9bc\uc744",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6125000,
+        "duration_milliseconds": 312,
+        "text_offset": 30,
+        "word_length": 2,
+        "text": "\ub2e4\ub978",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9375000,
+        "duration_milliseconds": 562,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\ud615\uc2dd\uc73c\ub85c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 212,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "\ud45c\ud604\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-i-geurimeul-dareun-3458bbb7.mp3"
   }
 ]
