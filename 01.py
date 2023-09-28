@@ -19,41 +19,102 @@ class Explainer(VoiceoverScene):
         ba, ca, gsa, csa, v = code_setup()
 
         a = archi_arrows_setup(archi[0][0], archi[0][1], archi[1][0], archi[1][1], archi[1][2])
-        a1, a2, a3, a4, a5, a6, a7, a8 = box_arrows_setup(boxes[0], boxes[1][0], boxes[1][1], boxes[1][2])
+        aa = box_arrows_setup(boxes[0], boxes[1][0], boxes[1][1], boxes[1][2])
 
-        self.explain_architecture( archi, a, boxes, a1, a2, a3, a4, a5, a6, a7, a8)
+        self.explain_architecture()
         # self.base(ba, ca, gsa, csa, v)
         # self.ca(ba, ca, gsa, csa, v)
 
 
 
 
-    def explain_architecture(self, archi, a, boxes, a1, a2, a3, a4, a5, a6, a7, a8):
+    def explain_architecture(self):
 
-        self.play(Write(archi.scale(0.6)))
-        self.play(Write(a.scale(0.6)))
+        archi = archi_setup()
+        a = archi_arrows_setup(archi[0][0], archi[0][1], archi[1][0], archi[1][1], archi[1][2])
+        boxes = boxes_setup()
+        aa =  box_arrows_setup(boxes[0], boxes[1][0], boxes[1][1], boxes[1][2])
+        
 
         with self.voiceover(text="""<lang xml:lang="ko-KR">
-                            이것이 transformer 아키텍쳐입니다.
+                            이것이 트랜스포머 아키텍쳐입니다.
+                            </lang>""") as tracker:
+            self.play(Write(archi.scale(0.6)), Write(a.scale(0.6)), run_time=tracker.duration)
+
+        with self.voiceover(text="""<lang xml:lang="ko-KR">
                             보기만 해도 어지럽습니다.
                             </lang>""") as tracker:
-            self.wait()
-        self.wait(0.5)
+            pass
 
         with self.voiceover(text="""<lang xml:lang="ko-KR">
-                            우리의 목표는 여기에 보이는 모든 부분을, 하나도 남김없이 모두 이해하는 것입니다.
+                            우리의 목표는 여기에 보이는 모든 부분을, 하나도 남김없이 모두 다 이해하는 것입니다.
                             </lang>""") as tracker:
-            self.wait()
+            pass
         self.wait(1)
 
         with self.voiceover(text="""<lang xml:lang="ko-KR">
                             이 그림을 다른 형식으로 표현해보겠습니다. 
                             </lang>""") as tracker:
-            self.play(ReplacementTransform(VGroup(archi, a), boxes.add(a1, a2, a3, a4, a5, a6, a7, a8).scale(0.4)), run_time=tracker.duration)
+            self.play(ReplacementTransform(VGroup(archi, a), boxes.add(aa).scale(0.4)), run_time=tracker.duration)
         self.wait(1)
 
+        with self.voiceover(text="""<lang xml:lang="ko-KR">
+                            여전히 복잡하지만, 아까보다는 좀 나아진 것 같습니다.
+                            </lang>""") as tracker:
+            pass
+        self.wait(1)
+
+        with self.voiceover(text="""<lang xml:lang="ko-KR">
+                            이 모형의 입력 부분은 어디일까요?
+                            </lang>""") as tracker:
+            pass
+        self.wait(1)
+
+        with self.voiceover(text="""<lang xml:lang="ko-KR">
+                            여기가 입력 부분입니다.
+                            </lang>""") as tracker:
+            self.play(Indicate(boxes[0][0][0]), run_time=tracker.duration)
+    
+        self.play(boxes[0][0][0].animate.set(color=YELLOW)) 
+
+        with self.voiceover(text="""<lang xml:lang="ko-KR">
+                            프랑스어로 나는 학생입니다 라는 문장이 적혀 있습니다. 
+                            또한 문장의 제일 앞에 start 라는 표시가 있고,
+                            제일 마지막에는 end 라는 표시가 있습니다.
+                            </lang>""") as tracker:
+            pass
+        self.wait(1)
+
+        with self.voiceover(text="""<lang xml:lang="ko-KR">
+                            그러면 이 모형의 출력 부분은 어디에 있을까요?
+                            </lang>""") as tracker:
+            pass
+        self.wait(1)
+
+        with self.voiceover(text="""<lang xml:lang="ko-KR">
+                            여기가 출력 부분입니다.
+                            </lang>""") as tracker:
+            self.play(Indicate(boxes[1][2][1]), run_time=tracker.duration)
+    
+        self.play(boxes[1][2][1].animate.set(color=YELLOW)) 
+
+        with self.voiceover(text="""<lang xml:lang="ko-KR">
+                            프랑스어에 대한 번역으로 I am a student 가 나오기를 바라는 것입니다.
+                            제일 마지막에 end 라는 표시가 있다는 것을 기억하기 바랍니다.
+                            </lang>""") as tracker:
+            pass
+        self.wait(1)
+
+        with self.voiceover(text="""<lang xml:lang="ko-KR">
+                            그러면 이 곳은 어떠한 역할을 하는 것일까요?
+                            </lang>""") as tracker:
+            self.play(Indicate(boxes[1][0][0][0]), run_time=tracker.duration)
+        self.wait(1)
+
+
+
         self.play(FadeOut(boxes))
-        self.play(FadeIn(VGroup(archi.copy(), a.copy())))
+        
 
         
 

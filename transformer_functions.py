@@ -208,7 +208,7 @@ def box_arrows_setup(gsa, mmha, ca, ff):
     a7 = arrows_setup_simple(ca[:5], ff[0])
     a8 = arrows_setup_simple(ff[0], ff[1])
 
-    return a1, a2, a3, a4, a5, a6, a7, a8
+    return VGroup(a1, a2, a3, a4, a5, a6, a7, a8)
 
 def code_setup():
             
