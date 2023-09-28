@@ -30,195 +30,198 @@ class Explainer(VoiceoverScene):
 
     def explain_architecture(self):
 
+        with open("narration.txt", "r") as f:
+            n = f.read()
+        n = n.splitlines()
+
+        text = []
+        for i in n:
+            text.append("""<lang xml:lang="ko-KR">""" + i +"""</lang>""")
+
         archi = archi_setup()
         archi = archi.add(archi_arrows_setup(archi[0][0], archi[0][1], archi[1][0], archi[1][1], archi[1][2])).scale(0.6)
         boxes = boxes_setup()
         boxes = boxes.add(box_arrows_setup(boxes[0], boxes[1][0], boxes[1][1], boxes[1][2])).scale(0.3)
         
-        self.play(Write(archi))
-        self.wait()
+        # self.play(Write(archi))
+        # self.wait()
         
-        self.play(FadeOut(archi))
-        self.wait()
+        # self.play(FadeOut(archi))
+        # self.wait()
 
-        self.play(Write(archi[0]))
-        self.wait()
+        # self.play(Write(archi[0]))
+        # self.wait()
 
-        self.play(FadeOut(archi[0]))
-        self.wait()
+        # self.play(FadeOut(archi[0]))
+        # self.wait()
 
-        self.play(Write(archi[1]))
-        self.wait()
+        # self.play(Write(archi[1]))
+        # self.wait()
 
-        self.play(FadeOut(archi[1]))
-        self.wait()
+        # self.play(FadeOut(archi[1]))
+        # self.wait()
 
-        self.play(Write(archi[0][0])) # gsa
-        self.wait()
-        self.play(FadeOut(archi[0][0]))
-        self.wait()
+        # self.play(Write(archi[0][0])) # gsa
+        # self.wait()
+        # self.play(FadeOut(archi[0][0]))
+        # self.wait()
 
-        self.play(Write(archi[0][1])) # encoder ff
-        self.wait()
-        self.play(FadeOut(archi[0][1]))
-        self.wait()
+        # self.play(Write(archi[0][1])) # encoder ff
+        # self.wait()
+        # self.play(FadeOut(archi[0][1]))
+        # self.wait()
 
-        self.play(Write(archi[1][0])) # mmha
-        self.wait()
-        self.play(FadeOut(archi[1][0]))
-        self.wait()
+        # self.play(Write(archi[1][0])) # mmha
+        # self.wait()
+        # self.play(FadeOut(archi[1][0]))
+        # self.wait()
 
-        self.play(Write(archi[1][1])) # ca
-        self.wait()
-        self.play(FadeOut(archi[1][1]))
-        self.wait()
+        # self.play(Write(archi[1][1])) # ca
+        # self.wait()
+        # self.play(FadeOut(archi[1][1]))
+        # self.wait()
 
-        self.play(Write(archi[1][2])) # decoder ff
-        self.wait()
-        self.play(FadeOut(archi[1][2]))
-        self.wait()
+        # self.play(Write(archi[1][2])) # decoder ff
+        # self.wait()
+        # self.play(FadeOut(archi[1][2]))
+        # self.wait()
 
-        # archi connetions
-        self.play(Write(archi[2]))
-        self.wait()
-        self.play(FadeOut(archi[2]))
-        self.wait()
+        # # archi connetions
+        # self.play(Write(archi[2]))
+        # self.wait()
+        # self.play(FadeOut(archi[2]))
+        # self.wait()
 
-        self.play(Write(archi[2][0])) # 2/3
-        self.wait()
-        self.play(FadeOut(archi[2][0]))
-        self.wait()
+        # self.play(Write(archi[2][0])) # 2/3
+        # self.wait()
+        # self.play(FadeOut(archi[2][0]))
+        # self.wait()
 
-        self.play(Write(archi[2][1])) # 1/3
-        self.wait()
-        self.play(FadeOut(archi[2][1]))
-        self.wait()
+        # self.play(Write(archi[2][1])) # 1/3
+        # self.wait()
+        # self.play(FadeOut(archi[2][1]))
+        # self.wait()
 
-        self.play(Write(archi[2][2])) # 3/3
-        self.wait()
-        self.play(FadeOut(archi[2][2]))
-        self.wait()
+        # self.play(Write(archi[2][2])) # 3/3
+        # self.wait()
+        # self.play(FadeOut(archi[2][2]))
+        # self.wait()
 
-        self.play(Write(archi[2][3])) # to add and norm
-        self.wait()
-        self.play(FadeOut(archi[2][3]))
-        self.wait()
+        # self.play(Write(archi[2][3])) # to add and norm
+        # self.wait()
+        # self.play(FadeOut(archi[2][3]))
+        # self.wait()
 
-        self.play(Write(archi[2][4])) # gsa -> ff
-        self.wait()
-        self.play(FadeOut(archi[2][4]))
-        self.wait()
+        # self.play(Write(archi[2][4])) # gsa -> ff
+        # self.wait()
+        # self.play(FadeOut(archi[2][4]))
+        # self.wait()
 
-        self.play(Write(archi[2][5])) # to add and norm
-        self.wait()
-        self.play(FadeOut(archi[2][5]))
-        self.wait()
+        # self.play(Write(archi[2][5])) # to add and norm
+        # self.wait()
+        # self.play(FadeOut(archi[2][5]))
+        # self.wait()
 
-        self.play(Write(archi[2][6])) # important 1/3
-        self.wait()
-        self.play(FadeOut(archi[2][6]))
-        self.wait()
+        # self.play(Write(archi[2][6])) # important 1/3
+        # self.wait()
+        # self.play(FadeOut(archi[2][6]))
+        # self.wait()
 
-        self.play(Write(archi[2][7])) # important 2/3
-        self.wait()
-        self.play(FadeOut(archi[2][7]))
-        self.wait()
+        # self.play(Write(archi[2][7])) # important 2/3
+        # self.wait()
+        # self.play(FadeOut(archi[2][7]))
+        # self.wait()
 
-        self.play(Write(archi[2][8])) # decoder part start 2/3
-        self.wait()
-        self.play(FadeOut(archi[2][8]))
-        self.wait()
+        # self.play(Write(archi[2][8])) # decoder part start 2/3
+        # self.wait()
+        # self.play(FadeOut(archi[2][8]))
+        # self.wait()
 
-        self.play(Write(archi[2][9])) # 1/3
-        self.wait()
-        self.play(FadeOut(archi[2][9]))
-        self.wait()
+        # self.play(Write(archi[2][9])) # 1/3
+        # self.wait()
+        # self.play(FadeOut(archi[2][9]))
+        # self.wait()
 
-        self.play(Write(archi[2][10])) # 3/3
-        self.wait()
-        self.play(FadeOut(archi[2][10]))
-        self.wait()
+        # self.play(Write(archi[2][10])) # 3/3
+        # self.wait()
+        # self.play(FadeOut(archi[2][10]))
+        # self.wait()
 
-        self.play(Write(archi[2][11])) ## to add & norm
-        self.wait()
-        self.play(FadeOut(archi[2][11]))
-        self.wait()
+        # self.play(Write(archi[2][11])) ## to add & norm
+        # self.wait()
+        # self.play(FadeOut(archi[2][11]))
+        # self.wait()
 
-        self.play(Write(archi[2][12])) # important 3/3
-        self.wait()
-        self.play(FadeOut(archi[2][12]))
-        self.wait()
+        # self.play(Write(archi[2][12])) # important 3/3
+        # self.wait()
+        # self.play(FadeOut(archi[2][12]))
+        # self.wait()
 
-        self.play(Write(archi[2][13])) # to add and norm
-        self.wait()
-        self.play(FadeOut(archi[2][13]))
-        self.wait()
+        # self.play(Write(archi[2][13])) # to add and norm
+        # self.wait()
+        # self.play(FadeOut(archi[2][13]))
+        # self.wait()
 
-        self.play(Write(archi[2][14])) # straight
-        self.wait()
-        self.play(FadeOut(archi[2][14]))
-        self.wait()
+        # self.play(Write(archi[2][14])) # straight
+        # self.wait()
+        # self.play(FadeOut(archi[2][14]))
+        # self.wait()
 
-        self.play(Write(archi[2][15])) # to add & norm
-        self.wait()
-        self.play(FadeOut(archi[2][15]))
-        self.wait()
+        # self.play(Write(archi[2][15])) # to add & norm
+        # self.wait()
+        # self.play(FadeOut(archi[2][15]))
+        # self.wait()
 
-        self.play(Write(archi[2][16])) # to output
-        self.wait()
-        self.play(FadeOut(archi[2][16]))
-        self.wait()
-
-
+        # self.play(Write(archi[2][16])) # to output
+        # self.wait()
+        # self.play(FadeOut(archi[2][16]))
+        # self.wait()
 
 
-        self.play(Write(archi))
-        self.wait()
-        self.play(FadeOut(archi))
-        self.wait()
-        self.play(Write(boxes[0:2]))
-        self.wait()
-        self.play(FadeOut(boxes[0:2]))
-        self.play(Write(boxes[2]))
-        self.wait()
-        self.play(FadeOut(boxes[2]))
-        self.wait()
 
-        self.play(Write(boxes[2][0]))
-        self.wait()
-        self.play(FadeOut(boxes[2][0]))
-        self.wait()
 
-        self.play(Write(boxes[2][1])) # polygon
-        self.wait()
-        self.play(FadeOut(boxes[2][1]))
-        self.wait()
+        # self.play(Write(archi))
+        # self.wait()
+        # self.play(FadeOut(archi))
+        # self.wait()
+        # self.play(Write(boxes[0:2]))
+        # self.wait()
+        # self.play(FadeOut(boxes[0:2]))
+        # self.play(Write(boxes[2]))
+        # self.wait()
+        # self.play(FadeOut(boxes[2]))
+        # self.wait()
 
-        self.play(Write(boxes[2][7])) # last
-        self.wait()
-        self.play(FadeOut(boxes[2][7]))
-        self.wait()
+        # self.play(Write(boxes[2][0]))
+        # self.wait()
+        # self.play(FadeOut(boxes[2][0]))
+        # self.wait()
 
-        self.play(Write(boxes))
-        self.wait()
-        self.play(FadeOut(boxes))
-        self.wait()
+        # self.play(Write(boxes[2][1])) # polygon
+        # self.wait()
+        # self.play(FadeOut(boxes[2][1]))
+        # self.wait()
 
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-        #                     이것이 트랜스포머 아키텍쳐입니다.
-        #                     </lang>""") as tracker:
-        #     self.play(Write(archi.scale(0.6)), Write(a.scale(0.6)), run_time=tracker.duration)
+        # self.play(Write(boxes[2][7])) # last
+        # self.wait()
+        # self.play(FadeOut(boxes[2][7]))
+        # self.wait()
 
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-        #                     보기만 해도 어지럽습니다.
-        #                     </lang>""") as tracker:
-        #     pass
+        # self.play(Write(boxes))
+        # self.wait()
+        # self.play(FadeOut(boxes))
+        # self.wait()
 
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-        #                     우리의 목표는 여기에 보이는 모든 부분을, 하나도 남김없이 모두 다 이해하는 것입니다.
-        #                     </lang>""") as tracker:
-        #     pass
-        # self.wait(1)
+        
+        with self.voiceover(text=text[0]) as tracker:
+            self.play(Write(archi.scale(0.6)), run_time=tracker.duration)
+
+        with self.voiceover(text=text[1]) as tracker:
+            pass
+
+        with self.voiceover(text=text[2]) as tracker:
+            pass
+        self.wait(1)
 
         # with self.voiceover(text="""<lang xml:lang="ko-KR">
         #                     이 그림을 다른 형식으로 표현해보겠습니다. 
