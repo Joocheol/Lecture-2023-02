@@ -22,7 +22,7 @@ class Explainer(VoiceoverScene):
         aa = box_arrows_setup(boxes[0], boxes[1][0], boxes[1][1], boxes[1][2])
 
         # self.explain_architecture()
-        self.base()
+        # self.base()
         # self.ca()
 
 
@@ -432,71 +432,69 @@ class Explainer(VoiceoverScene):
         for i in n:
             text.append("""<lang xml:lang="ko-KR">""" + i +"""</lang>""")
 
-        start_idx = 6
+        start_idx = 5
 
+        tracker = self.add_voiceover_text(text[start_idx+0])
+        self.add(v)
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+        tracker = self.add_voiceover_text(text[start_idx+1])
         self.play(ReplacementTransform(v[0].copy().background_mobject, ba.background_mobject))
-        with self.voiceover(text=text[start_idx+0]) as tracker:
-            pass
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
-        self.add(ba.code[0][0:20], ba.code[0][41:])
-        with self.voiceover(text=text[start_idx+1]) as tracker:
-            pass
- 
-        self.add(ba.code[0][20:41])
-        with self.voiceover(text=text[start_idx+2]) as tracker:
-            pass
+        tracker = self.add_voiceover_text(text[start_idx+2])
+        self.play(Write(ba.code[0][0:20]), Write(ba.code[0][41:]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
-        self.add(ba.code[1])
-        with self.voiceover(text=text[start_idx+3]) as tracker:
-            pass
+        tracker = self.add_voiceover_text(text[start_idx+3])
+        self.play(Write(ba.code[0][20:41]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
-        self.add(ba.code[2])
-        with self.voiceover(text=text[start_idx+4]) as tracker:
-            pass
+        tracker = self.add_voiceover_text(text[start_idx+4])
+        self.play(Write(ba.code[1]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
-        self.add(ba.code[3][0:12], ba.code[4][0:17], ba.code[5][0:11])
-        with self.voiceover(text=text[start_idx+5]) as tracker:
-            pass
+        tracker = self.add_voiceover_text(text[start_idx+5])
+        self.play(Write(ba.code[2]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
-        self.add(ba.code[3][28:47], ba.code[3][55])
-        with self.voiceover(text=text[start_idx+6]) as tracker:
-            pass
+        tracker = self.add_voiceover_text(text[start_idx+6])
+        self.play(Write(ba.code[3][0:12]), Write(ba.code[4][0:18]), Write(ba.code[5][0:12]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+        self.wait()
 
+        tracker = self.add_voiceover_text(text[start_idx+7])
+        self.play(Write(ba.code[3][29:48]), Write(ba.code[3][56]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
+        tracker = self.add_voiceover_text(text[start_idx+8])
+        self.play(Write(ba.code[4][35:54]), Write(ba.code[4][54]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
+        tracker = self.add_voiceover_text(text[start_idx+9])
+        self.play(Write(ba.code[5][29:]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
+        tracker = self.add_voiceover_text(text[start_idx+10])
+        self.play(Write(ba.code[3][12:29]), Write(ba.code[4][18:35]), Write(ba.code[5][12:29]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-        self.add(ba.code[5][28:])
-
-
-        self.add(ba.code[3][12:28], ba.code[4][17:34], ba.code[5][11:38])
-
-
-        self.add(ba.code[3][47:55])
-        self.play(Indicate(ba.code[3][47:55]))
-
+        tracker = self.add_voiceover_text(text[start_idx+11])
+        self.add(ba.code[3][48:56])
+        self.play(Indicate(ba.code[3][48:56]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
         self.add(ba.code[10])
-
-        
-        # special
-        self.play(Transform(ba.code[10][33:57], ba.code[3][47:55]), run_time=tracker.duration)
-
+        with self.voiceover(text[start_idx+12]) as tracker:
+            self.play(Transform(ba.code[10][33:57], ba.code[1][20:28]), run_time=tracker.duration)
+      
+        with self.voiceover(text[start_idx+13]) as tracker:
+            self.play(Transform(ba.code[1][20:28], ba.code[3][48:56]), run_time=tracker.duration)
         self.play(FadeOut(ba.code[10]))
 
-        
-        self.play(FadeOut(ba))
+        tracker = self.add_voiceover_text(text[start_idx+14])
+        self.play(FadeOut(ba.background_mobject), FadeOut(ba.code[:-2]), run_time=10)
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+
         self.wait()
