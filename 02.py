@@ -9,15 +9,37 @@ from transformer_functions import *
 class Explainer(VoiceoverScene):
     def construct(self):
 
-        box = setup_text_box()
+        dots = VGroup(*[Dot() for _ in range(5)]).arrange(RIGHT)
+        dots.generate_target()
+        dots.target.arrange(DOWN)
         
-        self.play(box[0].rotate(-PI/2).animate.to_edge(LEFT))
+        self.play(MoveToTarget(dots))
+        self.play(dots.animate.to_edge(LEFT))
 
-        rect_1 = Rectangle(width=3, height=0.2).set_fill(YELLOW, opacity=0.5)
-        rect_2 = Rectangle(width=3, height=0.2).set_fill(WHITE, opacity=0.5)
-        rect_3 = Rectangle(width=3, height=0.2).set_fill(BLUE, opacity=0.5)
+        qkv = VGroup(*[VGroup(Dot(color=RED), Dot(color=YELLOW), Dot(color=BLUE)).arrange(RIGHT, buff=0) for _ in range(5)]).arrange(DOWN).next_to(dots, RIGHT)
+        self.play(Write(qkv))
 
-        rect = VGroup(rect_1, rect_2, rect_3).arrange(DOWN, buff=0.1)
-        self.play(rect.animate.next_to(box[0][0], RIGHT))
-        
+        self.play(Indicate(qkv[4][1]))
+
+        q = VGroup(*[Dot(color=RED) for _ in range(5)]).arrange(DOWN).move_to(1.5*LEFT)
+        k = VGroup(*[Dot(color=YELLOW) for _ in range(5)]).arrange(RIGHT).move_to(1.5*DOWN)
+        v = VGroup(*[Dot(color=BLUE) for _ in range(5)]).arrange(RIGHT).next_to(k, 2*RIGHT)
+
+        qk = VGroup(*[VGroup(*[Dot() for _ in range(5)]).arrange(RIGHT) for _ in range(5)]).arrange(DOWN)
+        kq = VGroup(*[VGroup(*[Dot() for _ in range(5)]).arrange(DOWN) for _ in range(5)]).arrange(RIGHT)
+
+        attn_out = VGroup(*[Dot(color=TEAL) for _ in range(5)]).arrange(DOWN).to_edge(RIGHT)
+       
+
+        self.add(q, k, v)
+
+        self.play(Write(qk))
+        self.play(FadeOut(qk))
+
+        self.play(Write(kq))
+        self.play(FadeOut(kq))
+
+        self.play(Write(attn_out))
+
+
         self.wait()
