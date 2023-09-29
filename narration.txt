@@ -3,6 +3,7 @@
 우리의 목표는 여기에 보이는 모든 부분을 하나도 빠짐없이 모두 이해하는 것입니다.
 
 
+# base attention
 이번 시간에는 세가지의 서로 다른 어텐션을 코드로 어떻게 구현하는가를 살펴보도록 하겠습니다. TensorFlow code를 기준으로 살펴보지만, pi torch에서도 거의 같은 방법으로 사용됩니다.
 시작해보겠습니다.
 우선 base attention이라는 이름을 갖는 클래스를 정의하겠습니다. 이 클래스의 목적은 세가지의 서로 다른 어텐션에서 공통적으로 사용될 layer들을 미리 정의해 놓는 것입니다.
@@ -19,20 +20,28 @@ m h a는 Multi head attention을 의미합니다. 다행히도 TensorFlow에는 
 그리고는, 여기에서 여기로 들어가게 됩니다.
 이상으로 base attention class를 만들어 보았습니다. 이것을 기반으로 세가지의 서로 다른 attention을 구현할 것입니다.
 
-이번에는 cross attention 부분을 어떻게 구현하는가를 살펴보겠습니다. 앞에서 만들었던 base attetion을 이용할 것입니다.
+# cross attention
+이번에는 cross attention 부분을 어떻게 구현하는가를 살펴보겠습니다. 앞에서 만들었던 base attention을 이용할 것입니다.
 시작해보겠습니다.
-이 클래스의 이름은 cross attention입니다. 
-이 클래스는 앞에서 만들었던 base attention을 상속받습니다.
-따라서 굳이 m h a, add 등을 설정하지 않아도 사용할 수 있습니다.
-이제 base attention class가 만들어질 때 초기화해야 하는 일을 정의하겠습니다.
-super는 나의 상위 클래스를 의미합니다. 즉, default라고 설명했던 keras layer를 초기화하는 것입니다. 이것도 default라고 생각하면 됩니다.
-이제 세개의 변수를 정의하겠습니다. 이 세가지 변수만 정의하면 base attention은 끝입니다. 일단, 이름을 보고 무엇을 만들지 짐작해보기 바랍니다.
-Multi head attention이라는 layer를 부르고, 그것을 m h a라는 변수에 넣습니다.
-다음으로는 layer normalization이라는 layer를 부르고 그것을 layernorm에 넣습니다. 이 layer의 구체적인 역할에 대해서는 다시 설명하겠지만, 기본적으로 모형이 더 빠르게 수렴하게 하는 역할을 합니다.
-마지막 layer는 더하기 layer입니다. Transformer 아키텍쳐를 기억해 보면, Add and Norm 이라는 부분이 있었습니다. 그 부분을 구현하기 위해서 필요한 layer입니다.
-지금까지 만든 모든 layer는 다 keras layer입니다. 따라서 앞에 tf keras layers 라고 붙여주어야 합니다.
-마지막으로 이 부분. keyword arguments 부분이 굉장히 신경쓰일텐데, 이것은 나중에 이 클래스를 부를 때 보내주는 인자를 받아오기 위한 것입니다.
-예를 들어, 이렇게 인자들을 보내면, 이것을 여기에서 받아옵니다.
-이상으로 base attention class를 기반으로 세가지의 서로 다른 attention을 구현해 보겠습니다.
+이 클래스의 이름은 cross attention입니다. 왜 cross라는 말을 사용하는지 곧 알게 될 것입니다.
+이 클래스는 앞에서 만들었던 base attention을 상속받습니다. 따라서 앞에서 정의했던, multi head attention, layernorm, add 등을 사용할 수 있습니다. 
+TensorFlow에서는 class가 실행할 일을, call 이라는 함수를 이용하여 만듭니다. pi torch에서는 forward 라는 함수 이름을 사용합니다.
+함수를 부를 때, 사용하는 인수는 x 와 context입니다. self는 그냥 원래 적어주는 것입니다. 
+쿼리, 키, 밸류라는 말이 나옵니다. 쿼리에는 x를 넣어주고, 키와 밸류에는 context를 넣어줍니다. 
+이것을 트랜스포머 아키텍쳐를 보면서 설명해보겠습니다.
+여기가 지금 우리가 만들고 있는 부분입니다.
+이것이 쿼리이고,
+이것이 키와 밸류입니다.
+뭔가 말이 되는 것 같습니다. 프랑스어를 영어로 번역하려고 하는데, 쿼리는 다음 영어 단어는 무엇일까를 묻는 것이고, 키와 밸류는 프랑스어 문장의 의미인 context인 것입니다.
+그리고는 쿼리, 키, 밸류에 multi head attention을 적용하고, 그 결과를 attention output라는 변수에 저장하는 것입니다. 이것이 cross attention입니다. cross라는 말은 쿼리의 소스와 키 밸류의 소스가 서로 다르다는 의미입니다. 나중에 살펴볼 self attention의 코드와 비교해보면 그 의미가 더욱 명확해질 것입니다.
+이번에는 add and norm 부분을 구현할 것입니다. 엄청 어려울 것 같지만, 사실은 아래의 두 문장입니다. 방금 전에 계산한 attention output과 쿼리에 사용되었던 x를 더하고, 그 결과를 normalize 합니다.
+이번에도 그림으로 설명을 해보겠습니다.
+여기가 x입니다. multi head attention에 넣었던 x와 똑같은 x입니다. 다만 다른 위치로 향하고 있을 뿐입니다.
+가운데 있던 점이 움직인 곳이  attention output입니다. 작아서 잘 안보입니다.
+암튼, 그 두가지를 서로 더하고,
+그 결과에 layer normalization을 적용하는 것입니다. 그리고 return합니다.
+지금 설명한 add and norm은 모형이 더 빨리 수렴할 수 있도록 도와주는 layer입니다. 
+이상으로 크로스 어텐션을 구현하였습니다. 
+
 
 

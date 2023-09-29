@@ -1,6 +1,6 @@
 class CrossAttention(BaseAttention):
     def call(self, x, context):
-        attn_output, attn_scores = self.mha(
+        attn_output = self.mha(
             query=x,
             key=context,
             value=context)

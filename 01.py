@@ -22,8 +22,8 @@ class Explainer(VoiceoverScene):
         aa = box_arrows_setup(boxes[0], boxes[1][0], boxes[1][1], boxes[1][2])
 
         # self.explain_architecture()
-        # self.base()
-        # self.ca()
+        self.base()
+        self.ca()
 
 
 
@@ -301,123 +301,114 @@ class Explainer(VoiceoverScene):
         for i in n:
             text.append("""<lang xml:lang="ko-KR">""" + i +"""</lang>""")
 
-        start_idx = 6
+        start_idx = 23
 
-        with self.voiceover(text=text[start_idx+0]) as tracker:
-            pass
+        tracker = self.add_voiceover_text(text[start_idx+0])
+        self.add(v)
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
-        with self.voiceover(text=text[start_idx+1]) as tracker:
-            pass
+        tracker = self.add_voiceover_text(text[start_idx+1])
+        self.play(ReplacementTransform(v[1].copy().background_mobject, ca.background_mobject))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
-        with self.voiceover(text=text[start_idx+2]) as tracker:
-            pass
+        tracker = self.add_voiceover_text(text[start_idx+2])
+        self.play(Write(ca.code[0][0:21]), Write(ca.code[0][-2:]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
-        with self.voiceover(text=text[start_idx+3]) as tracker:
-            pass
+        tracker = self.add_voiceover_text(text[start_idx+3])
+        self.play(Write(ca.code[0][21:-2]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
-        with self.voiceover(text=text[start_idx+4]) as tracker:
-            pass
+        tracker = self.add_voiceover_text(text[start_idx+4])
+        self.play(Write(ca.code[1][:10]), Write(ca.code[1][-2:]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
-        with self.voiceover(text=text[start_idx+5]) as tracker:
-            pass
+        tracker = self.add_voiceover_text(text[start_idx+5])
+        self.play(Write(ca.code[1][10:-2]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
-        with self.voiceover(text=text[start_idx+6]) as tracker:
-            pass
+        tracker = self.add_voiceover_text(text[start_idx+6])
+        self.play(Write(ca.code[3]), Write(ca.code[4]), Write(ca.code[5][:-1]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
 
-
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-                            
-        #                     </lang>""") as tracker:
-        #     self.wait()
-        # self.wait(1)
-
-        # self.play(ReplacementTransform(v[1].copy().background_mobject, ca.background_mobject))
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-                            
-        #                     </lang>""") as tracker:
-        #     self.wait()
-        # self.wait(1)
-
-        # self.add(ca.code[0][0:20], ca.code[0][41:])
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-                            
-        #                     </lang>""") as tracker:
-        #     self.wait()
-        # self.wait(1)
-                
-        # self.add(ba.code[0][20:41])
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-                            
-        #                     </lang>""") as tracker:
-        #     self.wait(1)
-
-        # self.add(ba.code[1])
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-                           
-        #                     </lang>""") as tracker:
-        #     self.wait(2)
-
-        # self.add(ba.code[2])
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-                           
-        #                     </lang>""") as tracker:
-        #     self.wait()
-
-        # self.add(ba.code[3][0:12], ba.code[4][0:17], ba.code[5][0:11])
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-                            
-        #                     </lang>""") as tracker:
-        #     self.wait()
-        # self.wait(3)
-
-        # self.add(ba.code[3][28:47], ba.code[3][55])
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-                            
-        #                     </lang>""") as tracker:
-        #     self.wait()
-
-        # self.add(ba.code[4][34:])
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-                            
-        #                     </lang>""") as tracker:
-        #     self.wait()
-
-        # self.add(ba.code[5][28:])
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-                            
-        #                     </lang>""") as tracker:
-        #     self.wait()
-
-        # self.add(ba.code[3][12:28], ba.code[4][17:34], ba.code[5][11:38])
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-                            
-        #                     </lang>""") as tracker:
-        #     self.wait()
-
-        # self.add(ba.code[3][47:55])
-        # self.play(Indicate(ba.code[3][47:55]))
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-                            
-        #                     </lang>""") as tracker:
-        #     self.wait()
-
-        # self.add(ba.code[10])
-        # self.wait()
+        archi = archi_setup()
+        archi = archi.add(archi_arrows_setup(archi[0][0], archi[0][1], archi[1][0], archi[1][1], archi[1][2])).scale(0.6)
         
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-                            
-        #                     </lang>""") as tracker:
-        #     self.play(Transform(ba.code[10][33:57], ba.code[3][47:55]), run_time=tracker.duration)
-
-        # self.play(FadeOut(ba.code[10]))
-
-        # with self.voiceover(text="""<lang xml:lang="ko-KR">
-                            
-        #                     </lang>""") as tracker:
-        #     self.wait()
         
-        # self.play(FadeOut(ba))
-        # self.wait()
+        tracker = self.add_voiceover_text(text[start_idx+7])
+        ca.background_mobject.save_state()
+        self.play(ca.background_mobject.animate.set(color=BLACK))
+        self.play(FadeIn(archi.to_edge(RIGHT)))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+        tracker = self.add_voiceover_text(text[start_idx+8])
+        self.play(Indicate(archi[1][1][0]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+        tracker = self.add_voiceover_text(text[start_idx+9])
+        self.play(Indicate(archi[2][12]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+        tracker = self.add_voiceover_text(text[start_idx+10])
+        self.play(Indicate(archi[2][6]), Indicate(archi[2][7]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+        tracker = self.add_voiceover_text(text[start_idx+11])
+        self.play(Indicate(archi[1][1][0]))
+        self.play(Indicate(archi[2][12]))
+        self.play(Indicate(archi[2][6]), Indicate(archi[2][7]))
+        self.play(Indicate(archi[1][1][0]))
+        self.play(Indicate(archi[2][12]))
+        self.play(Indicate(archi[2][6]), Indicate(archi[2][7]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+        self.play(FadeOut(archi))
+        ca.background_mobject.restore()
+
+        tracker = self.add_voiceover_text(text[start_idx+12])
+        self.play(Write(ca.code[2:6]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+        # A
+        tracker = self.add_voiceover_text(text[start_idx+13])
+        self.play(Write(ca.code[7:9]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+        tracker = self.add_voiceover_text(text[start_idx+14])
+        ca.background_mobject.save_state()
+        self.play(ca.background_mobject.animate.set(color=BLACK))
+        self.play(FadeIn(archi.to_edge(RIGHT)))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+        tracker = self.add_voiceover_text(text[start_idx+15])
+        self.play(Indicate(archi[2][13]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+        tracker = self.add_voiceover_text(text[start_idx+16])
+        dot = Dot()
+        self.play(dot.animate.move_to(archi[1][1][1].get_center()))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+        tracker = self.add_voiceover_text(text[start_idx+17])
+        self.play(Indicate(ca.code[7:9]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+        tracker = self.add_voiceover_text(text[start_idx+18])
+        self.play(Indicate(ca.code[7:9]))
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+        self.play(Write(ca.code[9]))
+        self.play(FadeOut(dot))
+        self.play(FadeOut(archi))
+
+        tracker = self.add_voiceover_text(text[start_idx+19])
+        ca.background_mobject.restore()
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
+        tracker = self.add_voiceover_text(text[start_idx+20])
+        self.play(FadeOut(ca), run_time=10)
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+
 
 
     def base(self):
@@ -432,7 +423,7 @@ class Explainer(VoiceoverScene):
         for i in n:
             text.append("""<lang xml:lang="ko-KR">""" + i +"""</lang>""")
 
-        start_idx = 5
+        start_idx = 6
 
         tracker = self.add_voiceover_text(text[start_idx+0])
         self.add(v)
