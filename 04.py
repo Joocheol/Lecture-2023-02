@@ -23,6 +23,13 @@ class Explainer(VoiceoverScene):
         tracker = self.add_voiceover_text(text[start_idx+6]); self.wait(tracker.get_remaining_duration(buff=0.5))
         tracker = self.add_voiceover_text(text[start_idx+7]); self.wait(tracker.get_remaining_duration(buff=0.5))
         tracker = self.add_voiceover_text(text[start_idx+8]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        tracker = self.add_voiceover_text(text[start_idx+9]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        tracker = self.add_voiceover_text(text[start_idx+10]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        tracker = self.add_voiceover_text(text[start_idx+11]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        tracker = self.add_voiceover_text(text[start_idx+12]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        tracker = self.add_voiceover_text(text[start_idx+13]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        tracker = self.add_voiceover_text(text[start_idx+14]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        tracker = self.add_voiceover_text(text[start_idx+15]); self.wait(tracker.get_remaining_duration(buff=0.5))
 
         bar = Rectangle(height=0.2, width=2)
 
