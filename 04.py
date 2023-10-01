@@ -7,6 +7,7 @@ import numpy as np
 class Explainer(VoiceoverScene):
     def construct(self):
         text = self.speech_setup("attention.txt")
+        self.text = text
 
         # example text and copy
         t_1, t_2 = setup_text_box()
@@ -21,25 +22,22 @@ class Explainer(VoiceoverScene):
 
         start_idx = 1
 
-        tmp = Tex("Attention")
-        with self.voiceover(text[start_idx+0]) as tracker:
-            self.play(FadeIn(tmp))
-        self.play(FadeOut(tmp))
+        self.intro(1)
 
 
         with self.voiceover(text[start_idx+1]) as tracker: 
-            self.play(Write(t), run_time=tracker.duration)
+            self.play(Write(t))
         
 
         with self.voiceover(text[start_idx+2]) as tracker:
-            for i in range(len(t)):
-                self.play(Flash(t[i]), run_time=tracker.duration/len(t))
+            self.wait_until_bookmark('a')
+            self.play(Indicate(t[0]), Indicate(t[-1]))
         
 
-        tmp = VGroup(bar.copy(), bar.copy(), bar.copy()).arrange(RIGHT)
+        tmp = VGroup(bar.copy(), bar.copy(), bar.copy()).arrange(RIGHT).scale(0.5)
         with self.voiceover(text[start_idx+3]) as tracker:
             for i in range(len(t)):
-                self.play(GrowFromPoint(tmp.scale(0.5).next_to(t[i]), t[i].get_center()), run_time=tracker.duration/len(t))
+                self.play(GrowFromPoint(tmp.next_to(t[i]), t[i].get_center()), run_time=tracker.duration/len(t))
         self.remove(tmp)
         self.wait()
 
@@ -79,7 +77,7 @@ class Explainer(VoiceoverScene):
    
         for i in np.random.permutation(len(q)):
             for j in np.random.permutation(len(q)):
-                self.play(Create(temp_out[i][j]), run_time=0.01)
+                self.play(Create(temp_out[i][j]), run_time=0.005)
             #self.play(Transform(temp_out[i], dots[i]))
 
         self.wait()
@@ -91,7 +89,11 @@ class Explainer(VoiceoverScene):
         # dot product 
         tracker = self.add_voiceover_text(text[start_idx+13]); self.wait(tracker.get_remaining_duration(buff=0.5))  
 
-
+    def intro(self, idx):
+        tmp = Tex("Attention")
+        with self.voiceover(self.text[idx]) as tracker:
+            self.play(FadeIn(tmp))
+        self.play(FadeOut(tmp), run_time=0.5)
 
     def speech_setup(self, file):
         self.set_speech_service(
