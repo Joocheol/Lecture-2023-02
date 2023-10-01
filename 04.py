@@ -73,7 +73,7 @@ class Explainer(VoiceoverScene):
             temp_out.add(temp_in)
 
         # matrix
-        dots =dots_in_grid(len(q)).scale(0.5)
+        dots = dots_in_grid(len(q)).scale(0.5)
    
         for i in np.random.permutation(len(q)):
             for j in np.random.permutation(len(q)):
