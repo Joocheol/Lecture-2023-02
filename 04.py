@@ -6,40 +6,66 @@ import numpy as np
 
 class Explainer(VoiceoverScene):
     def construct(self):
-        text, start_idx = self.speech_setup()
+        text = self.speech_setup("attention.txt")
 
+        # example text and copy
         t_1, t_2 = setup_text_box()
         t = t_1.scale(0.4)
         tc = t.copy()
 
+        # querys and keys
+        bar = Rectangle(height=0.2, width=2)
+        q = VGroup(*[bar.copy().set_fill(color=random_color(), opacity=0.8) for _ in range(len(t))]).arrange(DOWN, buff=0.2)
+        k = VGroup(*[bar.copy().set_fill(color=random_color(), opacity=0.8) for _ in range(len(t))]).arrange(DOWN, buff=0.2)
+        
+
+        start_idx = 1
+
         tmp = Tex("Attention")
-        self.add(tmp)
-        tracker = self.add_voiceover_text(text[start_idx+0]); self.play(FadeOut(tmp, run_time=tracker.duration)); self.wait(tracker.get_remaining_duration(buff=0.5))
-        tracker = self.add_voiceover_text(text[start_idx+1]); self.play(Write(t)); self.wait(tracker.get_remaining_duration(buff=0.5))
-        tracker = self.add_voiceover_text(text[start_idx+2]); self.wait(tracker.get_remaining_duration(buff=0.5))
-        tracker = self.add_voiceover_text(text[start_idx+3]); self.play(t.animate.to_edge(LEFT), tc.animate.to_edge(RIGHT)); self.wait(tracker.get_remaining_duration(buff=0.5))
-        tracker = self.add_voiceover_text(text[start_idx+4]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        with self.voiceover(text[start_idx+0]) as tracker:
+            self.play(FadeIn(tmp))
+        self.play(FadeOut(tmp))
+
+
+        with self.voiceover(text[start_idx+1]) as tracker: 
+            self.play(Write(t), run_time=tracker.duration)
+        
+
+        with self.voiceover(text[start_idx+2]) as tracker:
+            for i in range(len(t)):
+                self.play(Flash(t[i]), run_time=tracker.duration/len(t))
+        
+
+        tmp = VGroup(bar.copy(), bar.copy(), bar.copy()).arrange(RIGHT)
+        with self.voiceover(text[start_idx+3]) as tracker:
+            for i in range(len(t)):
+                self.play(GrowFromPoint(tmp.scale(0.5).next_to(t[i]), t[i].get_center()), run_time=tracker.duration/len(t))
+        self.remove(tmp)
+        self.wait()
+
+        # separate t and tc to each sides
+        with self.voiceover(text[start_idx+4]) as tracker:
+            self.play(t.animate.to_edge(LEFT), tc.animate.to_edge(RIGHT), run_time=tracker.duration)
+        # Some explanations
         tracker = self.add_voiceover_text(text[start_idx+5]); self.wait(tracker.get_remaining_duration(buff=0.5))
         tracker = self.add_voiceover_text(text[start_idx+6]); self.wait(tracker.get_remaining_duration(buff=0.5))
-        tracker = self.add_voiceover_text(text[start_idx+7]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        
+        # Make querys
+        with self.voiceover(text[start_idx+7]) as tracker:
+            self.play(*[GrowFromPoint(q[i].next_to(t[i], RIGHT), t[i].get_center()) for i in range(len(q))], run_time=tracker.duration)
+        # call it as q
         tracker = self.add_voiceover_text(text[start_idx+8]); self.wait(tracker.get_remaining_duration(buff=0.5))
-        tracker = self.add_voiceover_text(text[start_idx+9]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        
+        # Make keys
+        with self.voiceover(text[start_idx+9]) as tracker:
+            self.play(*[GrowFromPoint(k[i].next_to(tc[i], LEFT), tc[i].get_center()) for i in range(len(q))], run_time=tracker.duration)
+        # call it as k    
         tracker = self.add_voiceover_text(text[start_idx+10]); self.wait(tracker.get_remaining_duration(buff=0.5))
-        tracker = self.add_voiceover_text(text[start_idx+11]); self.wait(tracker.get_remaining_duration(buff=0.5))
-        tracker = self.add_voiceover_text(text[start_idx+12]); self.wait(tracker.get_remaining_duration(buff=0.5))
-        tracker = self.add_voiceover_text(text[start_idx+13]); self.wait(tracker.get_remaining_duration(buff=0.5))
-        tracker = self.add_voiceover_text(text[start_idx+14]); self.wait(tracker.get_remaining_duration(buff=0.5))
-        tracker = self.add_voiceover_text(text[start_idx+15]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        
+        # start communication
+        tracker = self.add_voiceover_text(text[start_idx+11]); self.wait(tracker.get_remaining_duration(buff=0.5))    
 
-        bar = Rectangle(height=0.2, width=2)
-
-        q = VGroup(*[bar.copy().set_fill(color=random_color(), opacity=0.8) for _ in range(len(t))]).arrange(DOWN, buff=0.2).next_to(t, RIGHT)
-        k = VGroup(*[bar.copy().set_fill(color=random_color(), opacity=0.8) for _ in range(len(t))]).arrange(DOWN, buff=0.2).next_to(tc, LEFT)
-
-        tracker = self.add_voiceover_text(text[start_idx+4]); self.play(*[GrowFromPoint(q[i], t[i].get_center()) for i in range(len(q))], run_time=tracker.duration); self.wait(tracker.get_remaining_duration(buff=0.5))
-        tracker = self.add_voiceover_text(text[start_idx+5]); self.play(*[GrowFromPoint(k[i], tc[i].get_center()) for i in range(len(q))], run_time=tracker.duration); self.wait(tracker.get_remaining_duration(buff=0.5))
-
-
+        # communications
         temp_out = VGroup()
         for i in range(len(t)):
             temp_in = VGroup()
@@ -48,27 +74,26 @@ class Explainer(VoiceoverScene):
                 temp_in.add(l)
             temp_out.add(temp_in)
 
-        self.wait()
-
-
+        # matrix
         dots =dots_in_grid(len(q)).scale(0.5)
-        
-        
-
    
         for i in np.random.permutation(len(q)):
-            if i == 0:
-                tracker = self.add_voiceover_text(text[start_idx+5])
-                for j in np.random.permutation(len(q)):
-                    self.play(Create(temp_out[i][j]), run_time=0.1)
-                self.wait(tracker.get_remaining_duration(buff=0.5))
-            else:
-                for j in np.random.permutation(len(q)):
-                    self.play(Create(temp_out[i][j]), run_time=0.1)
-            self.play(Transform(temp_out[i], dots[i]))
+            for j in np.random.permutation(len(q)):
+                self.play(Create(temp_out[i][j]), run_time=0.01)
+            #self.play(Transform(temp_out[i], dots[i]))
+
+        self.wait()
+
+        tracker = self.add_voiceover_text(text[start_idx+12])  
+        self.play(FadeOut(temp_out))
+        self.wait(tracker.get_remaining_duration(buff=0.5))  
+
+        # dot product 
+        tracker = self.add_voiceover_text(text[start_idx+13]); self.wait(tracker.get_remaining_duration(buff=0.5))  
 
 
-    def speech_setup(self):
+
+    def speech_setup(self, file):
         self.set_speech_service(
             AzureService(
                 voice="en-US-JennyMultilingualNeural",
@@ -76,7 +101,7 @@ class Explainer(VoiceoverScene):
             )
         )
 
-        with open("attention.txt", "r") as f:
+        with open(file, "r") as f:
             n = f.read()
         n = n.splitlines()
 
@@ -84,9 +109,7 @@ class Explainer(VoiceoverScene):
         for i in n:
             text.append("""<lang xml:lang="ko-KR">""" + i +"""</lang>""")
 
-        start_idx = 1
-
-        return text, start_idx
+        return text
         
 
 
