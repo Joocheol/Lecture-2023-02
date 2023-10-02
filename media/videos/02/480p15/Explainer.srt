@@ -1,4 +1,4 @@
 1
-00:00:00,000 --> 00:00:03,356
-<lang xml:lang="ko-KR">이번에는 multi head attention을 설명해보겠습니다.</lang>
+00:00:00,000 --> 00:00:03,980
+<lang xml:lang="ko-KR">이번에는 attention이라는 것을 애니메이션으로 표현해보겠습니다. </lang>
 

@@ -11,89 +11,96 @@ class Explainer(VoiceoverScene):
 
         # example text and copy
         t_1, t_2 = setup_text_box()
-        t = t_1.scale(0.4)
-        tc = t.copy()
+        self.t = t_1.scale(0.4)
+        self.tc = self.t.copy()
 
         # querys and keys
-        bar = Rectangle(height=0.2, width=2)
-        q = VGroup(*[bar.copy().set_fill(color=random_color(), opacity=0.8) for _ in range(len(t))]).arrange(DOWN, buff=0.2)
-        k = VGroup(*[bar.copy().set_fill(color=random_color(), opacity=0.8) for _ in range(len(t))]).arrange(DOWN, buff=0.2)
+        self.bar = Rectangle(height=0.2, width=2)
+        self.q = VGroup(*[self.bar.copy().set_fill(color=random_color(), opacity=0.8) for _ in range(len(self.t))]).arrange(DOWN, buff=0.2)
+        self.k = VGroup(*[self.bar.copy().set_fill(color=random_color(), opacity=0.8) for _ in range(len(self.t))]).arrange(DOWN, buff=0.2)
         
 
-        start_idx = 1
+        idx = 1
 
         self.intro(1)
+        self.qk_vectors(5)
 
 
-        with self.voiceover(text[start_idx+1]) as tracker: 
-            self.play(Write(t))
         
 
-        with self.voiceover(text[start_idx+2]) as tracker:
-            self.wait_until_bookmark('a')
-            self.play(Indicate(t[0]), Indicate(t[-1]))
-        
-
-        tmp = VGroup(bar.copy(), bar.copy(), bar.copy()).arrange(RIGHT).scale(0.5)
-        with self.voiceover(text[start_idx+3]) as tracker:
-            for i in range(len(t)):
-                self.play(GrowFromPoint(tmp.next_to(t[i]), t[i].get_center()), run_time=tracker.duration/len(t))
-        self.remove(tmp)
-        self.wait()
-
-        # separate t and tc to each sides
-        with self.voiceover(text[start_idx+4]) as tracker:
-            self.play(t.animate.to_edge(LEFT), tc.animate.to_edge(RIGHT), run_time=tracker.duration)
-        # Some explanations
-        tracker = self.add_voiceover_text(text[start_idx+5]); self.wait(tracker.get_remaining_duration(buff=0.5))
-        tracker = self.add_voiceover_text(text[start_idx+6]); self.wait(tracker.get_remaining_duration(buff=0.5))
-        
-        # Make querys
-        with self.voiceover(text[start_idx+7]) as tracker:
-            self.play(*[GrowFromPoint(q[i].next_to(t[i], RIGHT), t[i].get_center()) for i in range(len(q))], run_time=tracker.duration)
-        # call it as q
-        tracker = self.add_voiceover_text(text[start_idx+8]); self.wait(tracker.get_remaining_duration(buff=0.5))
-        
-        # Make keys
-        with self.voiceover(text[start_idx+9]) as tracker:
-            self.play(*[GrowFromPoint(k[i].next_to(tc[i], LEFT), tc[i].get_center()) for i in range(len(q))], run_time=tracker.duration)
-        # call it as k    
-        tracker = self.add_voiceover_text(text[start_idx+10]); self.wait(tracker.get_remaining_duration(buff=0.5))
-        
+       
         # start communication
-        tracker = self.add_voiceover_text(text[start_idx+11]); self.wait(tracker.get_remaining_duration(buff=0.5))    
+        tracker = self.add_voiceover_text(self.text[idx+11]); self.wait(tracker.get_remaining_duration(buff=0.5))    
 
         # communications
         temp_out = VGroup()
-        for i in range(len(t)):
+        for i in range(len(self.t)):
             temp_in = VGroup()
-            for j in range(len(t)):
-                l = Line(q[i].get_right(), k[j].get_left())
+            for j in range(len(self.t)):
+                l = Line(self.q[i].get_right(), self.k[j].get_left())
                 temp_in.add(l)
             temp_out.add(temp_in)
 
         # matrix
-        dots = dots_in_grid(len(q)).scale(0.5)
+        dots = dots_in_grid(len(self.q)).scale(0.5)
    
-        for i in np.random.permutation(len(q)):
-            for j in np.random.permutation(len(q)):
+        for i in np.random.permutation(len(self.q)):
+            for j in np.random.permutation(len(self.q)):
                 self.play(Create(temp_out[i][j]), run_time=0.005)
             #self.play(Transform(temp_out[i], dots[i]))
 
         self.wait()
 
-        tracker = self.add_voiceover_text(text[start_idx+12])  
+        tracker = self.add_voiceover_text(self.text[idx+12])  
         self.play(FadeOut(temp_out))
         self.wait(tracker.get_remaining_duration(buff=0.5))  
 
         # dot product 
-        tracker = self.add_voiceover_text(text[start_idx+13]); self.wait(tracker.get_remaining_duration(buff=0.5))  
+        tracker = self.add_voiceover_text(text[idx+13]); self.wait(tracker.get_remaining_duration(buff=0.5))  
 
     def intro(self, idx):
         tmp = Tex("Attention")
         with self.voiceover(self.text[idx]) as tracker:
             self.play(FadeIn(tmp))
         self.play(FadeOut(tmp), run_time=0.5)
+
+        with self.voiceover(self.text[idx+1]) as tracker: 
+            self.play(Write(self.t))
+        
+
+        with self.voiceover(self.text[idx+2]) as tracker:
+            self.wait_until_bookmark('a')
+            self.play(Indicate(self.t[0]), Indicate(self.t[-1]))
+        
+
+        tmp = VGroup(self.bar.copy(), self.bar.copy(), self.bar.copy()).arrange(RIGHT).scale(0.5)
+        with self.voiceover(self.text[idx+3]) as tracker:
+            for i in range(len(self.t)):
+                self.play(GrowFromPoint(tmp.next_to(self.t[i]), self.t[i].get_center()), run_time=tracker.duration/len(self.t))
+        self.remove(tmp)
+        self.wait()
+
+    def qk_vectors(self, idx):
+
+         # separate t and tc to each sides
+        with self.voiceover(self.text[idx]) as tracker:
+            self.play(self.t.animate.to_edge(LEFT), self.tc.animate.to_edge(RIGHT), run_time=tracker.duration)
+        # Some explanations
+        tracker = self.add_voiceover_text(self.text[idx+1]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        tracker = self.add_voiceover_text(self.text[idx+2]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        
+        # Make querys
+        with self.voiceover(self.text[idx+3]) as tracker:
+            self.play(*[GrowFromPoint(self.q[i].next_to(self.t[i], RIGHT), self.t[i].get_center()) for i in range(len(self.q))], run_time=tracker.duration)
+        # call it as q
+        tracker = self.add_voiceover_text(self.text[idx+4]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        
+        # Make keys
+        with self.voiceover(self.text[idx+5]) as tracker:
+            self.play(*[GrowFromPoint(self.k[i].next_to(self.tc[i], LEFT), self.tc[i].get_center()) for i in range(len(self.q))], run_time=tracker.duration)
+        # call it as k    
+        tracker = self.add_voiceover_text(self.text[idx+6]); self.wait(tracker.get_remaining_duration(buff=0.5))
+        
 
     def speech_setup(self, file):
         self.set_speech_service(

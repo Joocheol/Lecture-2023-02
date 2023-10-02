@@ -1,0 +1,7 @@
+#
+q 벡터와 k 벡터를 표시해보겠습니다.
+q와 k의 대화는 사실 수학적으로는 </lang><lang xml:lang="en-US">matrix multiplication</lang> <lang xml:lang="ko-KR">입니다.
+서로 곱해질까요?
+아쉽게도 서로 곱해지지 않습니다. </lang><lang xml:lang="en-US">dimension</lang> <lang xml:lang="ko-KR">이 맞지 않기 때분입니다.
+</lang><lang xml:lang="en-US">dimension</lang> <lang xml:lang="ko-KR">을 같게 하기 위해서는 k 행렬에 transpose을 취해야 합니다.
+이렇게 구한 숫자를 attention score라고 합니다.

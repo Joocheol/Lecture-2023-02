@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:02,996
+<lang xml:lang="ko-KR">q 벡터와 k 벡터를 표시해보겠습니다.</lang>
+
+2
+00:00:03,133 --> 00:00:04,452
+<lang xml:lang="ko-KR">q와 k의 대화는 사실 수학적으로는
+
+3
+00:00:04,552 --> 00:00:07,593
+</lang><lang xml:lang="en-US">matrix multiplication</lang> <lang xml:lang="ko-KR">입니다.</lang>
+
+4
+00:00:07,733 --> 00:00:09,121
+<lang xml:lang="ko-KR">서로 곱해질까요?</lang>
+
+5
+00:00:09,200 --> 00:00:11,142
+<lang xml:lang="ko-KR">아쉽게도 서로 곱해지지 않습니다. </lang><lang
+
+6
+00:00:11,242 --> 00:00:14,092
+xml:lang="en-US">dimension</lang> <lang xml:lang="ko-KR">이 맞지 않기 때분입니다.</lang>
+
+7
+00:00:14,133 --> 00:00:17,501
+<lang xml:lang="ko-KR"></lang><lang xml:lang="en-US">dimension</lang> <lang xml:lang="ko-KR">을 같게 하기
+
+8
+00:00:17,601 --> 00:00:18,785
+위해서는 k 행렬에 transpose을 취해야 합니다.</lang>
+
+9
+00:00:22,266 --> 00:00:25,406
+<lang xml:lang="ko-KR">이렇게 구한 숫자를 attention score라고 합니다.</lang>
+
