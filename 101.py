@@ -33,13 +33,27 @@ class Explainer(VoiceoverScene):
 
         b = setup_boxes()
         bc = boxes_connect()
+
+
+        m = Circle().scale(0.5)
+
+        self.play(Write(mat(m, 5, 1)))
+
+
+
+
+
+
+
+
+
        
 
 
-        with self.voiceover(self.text[1]) as tracker:
-            pass
+        # with self.voiceover(self.text[1]) as tracker:
+        #     pass
 
-        tracker = self.add_voiceover_text(self.text[2])
-        self.wait()
-        self.wait(tracker.get_remaining_duration(buff=0.5))
+        # tracker = self.add_voiceover_text(self.text[2])
+        # self.wait()
+        # self.wait(tracker.get_remaining_duration(buff=0.5))
         
