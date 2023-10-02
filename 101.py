@@ -37,7 +37,14 @@ class Explainer(VoiceoverScene):
 
         m = Circle().scale(0.5)
 
-        self.play(Write(mat(m, 5, 1)))
+        #self.play(Write(mat(m, 5, 1)))
+        m = Write(mat(m, 5, 3))
+        self.test(2, m)
+
+    def test(self, idx, m):
+        with self.voiceover(self.text[idx]) as tracker:
+            self.play(m, run_time=tracker.duration)
+   
 
 
 
