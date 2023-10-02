@@ -105,13 +105,13 @@ def make_box(rows, cols):
     height = 1
     
     temp = VGroup()
-    for i in range(rows):
+    for i in range(cols):
         temp_in = VGroup()
-        for j in range(cols):
+        for j in range(rows):
             temp_in.add(Rectangle(width=width, height=height))
-        temp_in.arrange(RIGHT, buff=0)
+        temp_in.arrange(DOWN, buff=0)
         temp.add(temp_in)
-    temp.arrange(DOWN, buff=0)
+    temp.arrange(RIGHT, buff=0)
 
     return temp
 
@@ -162,3 +162,21 @@ def setup_boxes():
     gsa.align_to(decoder, DOWN)
 
     return boxes
+
+# TODO
+def boxes_connect():
+    tmp = VGroup()
+    m = setup_boxes()
+
+    s = m[0][1]
+    t = m[1][1][0]
+
+
+    for i in range(5):
+        x = s[i].get_top()[0]
+        y = t[i].get_left()[1]
+        p = np.array([x, y, 0.0])
+        tmp.add(Line(s[i].get_top(), p))
+        tmp.add(Line(p, t[i].get_left()))
+
+    return tmp

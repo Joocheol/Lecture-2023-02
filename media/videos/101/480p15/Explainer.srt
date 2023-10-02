@@ -1,0 +1,12 @@
+1
+00:00:02,000 --> 00:00:03,892
+<lang xml:lang="ko-KR">이것은 테스트 파일입니다.</lang>
+
+2
+00:00:03,933 --> 00:00:05,431
+<lang xml:lang="ko-KR">이것은 </lang><lang xml:lang="en-US">English</lang>
+
+3
+00:00:05,531 --> 00:00:06,377
+<lang xml:lang="ko-KR">를 말하는 방법입니다.</lang>
+

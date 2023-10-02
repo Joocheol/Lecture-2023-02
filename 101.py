@@ -26,13 +26,20 @@ class Explainer(VoiceoverScene):
         return text[:]
     
     def construct(self):
-        self.text = self.speech_setup("05.txt")
+        self.text = self.speech_setup("000.txt")
         
         s = skeleton()
         a = skeleton_connect()
 
         b = setup_boxes()
+        bc = boxes_connect()
        
-        #self.play(Write(VGroup(s,a).scale(0.66)))
-        self.play(Write(b.scale(0.4)))
+
+
+        with self.voiceover(self.text[1]) as tracker:
+            pass
+
+        tracker = self.add_voiceover_text(self.text[2])
+        self.wait()
+        self.wait(tracker.get_remaining_duration(buff=0.5))
         
