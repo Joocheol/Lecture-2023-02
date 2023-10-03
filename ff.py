@@ -36,11 +36,69 @@ class Explainer(VoiceoverScene):
     def construct(self):
         self.text = self.speech_setup("ff.txt")
 
-        self.intro()
-        self.linear_regression()
-        self.graphic_1()
+        # self.intro()
+        # self.linear_regression()
+        # self.graphic_1()
+        # self.graphic_2()
+        self.graphic_3()
         
         self.wait()
+
+    def graphic_3(self):
+        layer = mat(Circle(radius=0.1), 9, 1)
+        ins = mat(Dot(), 5, 1)
+        outs = mat(Dot(), 9, 1)
+        v = VGroup(ins, layer, outs).arrange(RIGHT, buff=3)
+
+        line_in = VGroup(*[VGroup(*[Line(ins[i], layer[j]) for i in range(len(ins))]) for j in range(len(layer))])
+
+        self.play(Write(v))
+        self.play(Write(line_in))
+
+
+
+    def graphic_2(self):
+        cir = Circle(radius=0.5)
+        temp = MathTex(r"y = w_1 x_1 + \cdots + w_5 x_5 + b").shift(2*UP)
+        ins = mat(Dot(), 5, 1).next_to(cir, 5*LEFT)
+        outs = mat(Dot(), 5, 1).next_to(cir, 5*RIGHT)
+
+        line_in = VGroup(*[Line(ins[i].get_center(), cir.get_left()) for i in range(len(ins))])
+        line_out = VGroup(*[Line(cir.get_right(), outs[i].get_center()) for i in range(len(ins))])
+
+        v = VGroup(cir, ins, outs[2], line_in, line_out[2])
+
+        m = Write(v)
+        self.voice(m, 31)
+
+        m = Create(line_in)
+        self.voice(m, 32)
+        self.wait()
+
+        m = Write(temp)
+        self.voice(m, 33)
+        self.voice(None, 34)
+
+        m = Create(ins)
+        self.voice(m, 35)
+
+        m = Create(cir)
+        self.voice(m, 36)
+
+        m = [Create(line_out[2]), Create(outs[2])]
+        self.voice(m, 37)
+
+        m = [Create(line_out), Create(outs)]
+        self.voice(m, 38)
+        self.play(FadeOut(line_out), FadeOut(outs))
+
+        m = [GrowFromPoint(line_out[2], cir.get_right()), Write(outs[2])]
+        self.voice(m, 39)
+
+        self.play(FadeOut(v), FadeOut(temp))
+        
+
+        pass
 
     def graphic_1(self):
         cir = Circle(radius=0.5)
@@ -65,14 +123,6 @@ class Explainer(VoiceoverScene):
         self.voice(m, 25)
 
         self.voice(None, 26)
-
-
-
-
-
-
-
-
 
     def linear_regression(self):
         temp = MathTex(r"y = \beta_0 + \beta_1 x")
