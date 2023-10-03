@@ -4,8 +4,6 @@ from manim_voiceover.services.azure import AzureService
 
 from my_transformer import *
 
-import numpy as np
-
 class Explainer(VoiceoverScene):
     def speech_setup(self, file):
         self.set_speech_service(
@@ -28,8 +26,8 @@ class Explainer(VoiceoverScene):
     def construct(self):
         self.text = self.speech_setup("000.txt")
 
-        with self.voiceover(self.text[1]) as tracker:
-            pass
+        act = Write(Circle())
+        self.voice(act, 1)
 
         tracker = self.add_voiceover_text(self.text[2])
         self.wait()
@@ -38,3 +36,10 @@ class Explainer(VoiceoverScene):
 
         
         self.wait()
+
+    def voice(self, act, idx):
+        with self.voiceover(self.text[idx]) as tracker:
+            self.play(act, run_time=tracker.duration)
+            
+     
+
