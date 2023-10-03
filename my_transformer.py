@@ -206,20 +206,19 @@ def mat(m, rows, cols, row_first = True):
     return vg
 
 # questionable
-def nn(m):
-    a = len(m)
+def nn(m, arg = [Circle(radius=0.1), Circle(0.1)], buff=LARGE_BUFF):
     temp = VGroup()
-
-    for i in range(a):
-        b = m[i]
-        layer = mat(Dot(), b, 1)
-        temp.add(layer).arrange(RIGHT)
-        if i == 0:
-            prev = layer
-        else:
-            for j in range(b):
-                temp.add(*[Line(prev[k].get_center(), layer[j].get_center()) for k in range(len(prev))])
-            prev = layer
-            temp = VGroup(temp)
+    a = mat(arg[0], m[0], 1)
+    b = mat(arg[1], m[1], 1)
+    temp.add(a, b).arrange(RIGHT, buff = buff)
+    
+    v = VGroup()
+    for i in a:
+        v1 = VGroup()
+        for j in b:
+            v1.add(Line(i.get_right(), j.get_left()))
+        v.add(v1)
+    temp.add(a, v, b)
+    
 
     return temp
