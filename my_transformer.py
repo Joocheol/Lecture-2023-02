@@ -205,4 +205,21 @@ def mat(m, rows, cols, row_first = True):
 
     return vg
 
+# questionable
+def nn(m):
+    a = len(m)
+    temp = VGroup()
 
+    for i in range(a):
+        b = m[i]
+        layer = mat(Dot(), b, 1)
+        temp.add(layer).arrange(RIGHT)
+        if i == 0:
+            prev = layer
+        else:
+            for j in range(b):
+                temp.add(*[Line(prev[k].get_center(), layer[j].get_center()) for k in range(len(prev))])
+            prev = layer
+            temp = VGroup(temp)
+
+    return temp

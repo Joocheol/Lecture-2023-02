@@ -58,7 +58,7 @@ class Explainer(VoiceoverScene):
         D = mat(rect_v, 1, 7)
 
         v = VGroup(A, B, D, C).arrange_in_grid(2,2)
-        self.play(Write(v))
+        self.play(Write(nn([3,4,5,1,2])))
 
 
 # TO DO
