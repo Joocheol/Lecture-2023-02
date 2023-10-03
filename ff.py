@@ -40,10 +40,28 @@ class Explainer(VoiceoverScene):
         # self.linear_regression()
         # self.graphic_1()
         # self.graphic_2()
-        self.graphic_3()
+        # self.graphic_3() -> not finished yet
+
+        self.mat_play()
         
         self.wait()
 
+
+    def mat_play(self):
+        sq = Square(0.2).set_fill(YELLOW, opacity=1)
+        rect_h = Rectangle(height=0.2, width=1.1).set_fill(YELLOW, opacity=1)
+        rect_v = Rectangle(height=1.1, width=0.2).set_fill(YELLOW, opacity=1)
+
+        A = mat(sq, 7, 3)
+        B = mat(sq, 3, 7)
+        C = mat(rect_h, 7, 1)
+        D = mat(rect_v, 1, 7)
+
+        v = VGroup(A, B, D, C).arrange_in_grid(2,2)
+        self.play(Write(v))
+
+
+# TO DO
     def graphic_3(self):
         layer = mat(Circle(radius=0.1), 9, 1)
         ins = mat(Dot(), 5, 1)
