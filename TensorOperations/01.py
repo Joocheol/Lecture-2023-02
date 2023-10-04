@@ -1,6 +1,7 @@
 from manim import *
 from manim_voiceover import VoiceoverScene
 from manim_voiceover.services.azure import AzureService
+from helper import *
 
 
 class Explainer(VoiceoverScene):
@@ -76,14 +77,51 @@ class Explainer(VoiceoverScene):
         self.play(FadeOut(code), FadeOut(f), FadeOut(f_2))
         
     def section_15(self):
-        t = Tex(r"Element-wise operations")
-        self.voice(Write(t), 15)
-        self.voice(None, 16)
-        self.voice(FadeOut(t), 17)
-        
-
+        # t = Tex(r"Element-wise operations")
         code = Code(file_name="naive_relu.py", tab_width=4, insert_line_no=False, background="window", language="python").rescale_to_fit(12,0)
-        self.voice(FadeIn(code), 18)
+        sq = Square(0.2).set_fill(YELLOW, opacity=0.8)
+        x = mat(sq, 8, 4).shift(3*RIGHT)
+        # self.voice(Write(t), 15)
+        # self.voice(None, 16)
+        # self.voice(FadeOut(t), 17)
+
+
+
+        
+        self.voice(Write(x), 18)
+        self.voice(None, 19)
         self.wait()
+
+        self.voice(None, 20)
+        a = Arrow(x[0][0].get_left()+LEFT, x[0][0].get_left(), buff=0)
+        self.play(a.animate.move_to(x[-1][0].get_left()+LEFT/2), run_time=3)
+
+        b = a.copy()
+        b.rotate(-PI/2).copy()
+        b.move_to(x[0][0].get_top()+UP/2)
+        self.play(b.animate.move_to(x[0][-1].get_top()+UP/2), run_time=3)
+
+        # long animation
+        tracker = self.add_voiceover_text(self.text[21])
+
+        for i in range(len(x)):
+            self.play(a.animate.move_to(x[i][0].get_left()+LEFT/2))
+            for j in range(len(x[0])):
+                self.play(b.animate.move_to(x[0][j].get_top()+UP/2))
+
+        self.wait(tracker.get_remaining_duration(buff=0.5))
+        self.play(FadeOut(a, b))
+        self.play(FadeOut(x))
+
+        # code
+        self.voice(FadeIn(code), 22)
+        self.voice(Circumscribe(code.code[3:5]), 23)
+        self.voice(Circumscribe(code.code[3]), 24)
+        self.voice(Circumscribe(code.code[4]), 25)
+        self.voice(Circumscribe(code.code[5]), 26)
+        self.play(FadeOut(code))
+        self.wait()
+
+
 
 
