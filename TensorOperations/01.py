@@ -35,17 +35,33 @@ class Explainer(VoiceoverScene):
     def construct(self):
         self.text = self.speech_setup("01.txt")
 
-        self.section_00()
         self.section_01()
         self.section_02()
+        self.section_36()
 
-        self.voice(None, 1)
-
-    def section_00(self):
-        pass
+        #self.voice(None, 1)
 
     def section_01(self):
-        pass
+        t = Title(r"Tensor Operations")
+        blist = BulletedList(
+            "Element-wise operations",
+            "Broadcasting",
+            "Tensor product",
+            "Tensor reshaping")
+        
+        self.wait(0.5)
+        self.add(t)
+        self.voice([Write(blist)], 1)
+        self.play(FadeOut(blist), FadeOut(t))
+
+
+
+
 
     def section_02(self):
+        code = Code(file_name="Dense.py", tab_width=4, insert_line_no=False, background="window", language="python").rescale_to_fit(12,0)
+        self.play(FadeIn(code))
+
+
+    def section_36(self):
         pass
