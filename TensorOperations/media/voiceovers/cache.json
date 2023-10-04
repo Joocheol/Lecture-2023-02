@@ -1,0 +1,131 @@
+[
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\">\uc774\uac83\uc740 \ud14c\uc2a4\ud2b8 \ud30c\uc77c\uc785\ub2c8\ub2e4.</lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\">\uc774\uac83\uc740 \ud14c\uc2a4\ud2b8 \ud30c\uc77c\uc785\ub2c8\ub2e4.</lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\">\uc774\uac83\uc740 \ud14c\uc2a4\ud2b8 \ud30c\uc77c\uc785\ub2c8\ub2e4.</lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\">\uc774\uac83\uc740 \ud14c\uc2a4\ud2b8 \ud30c\uc77c\uc785\ub2c8\ub2e4.</lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 450,
+        "text_offset": 23,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc740",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5125000,
+        "duration_milliseconds": 425,
+        "text_offset": 27,
+        "word_length": 3,
+        "text": "\ud14c\uc2a4\ud2b8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9500000,
+        "duration_milliseconds": 787,
+        "text_offset": 31,
+        "word_length": 5,
+        "text": "\ud30c\uc77c\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeoseun-teseuteu-pailibnida-28ca38aa.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeoseun-teseuteu-pailibnida-28ca38aa.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\">\uc774\uac83\uc740 \ud14c\uc2a4\ud2b8 \ud30c\uc77c\uc785\ub2c8\ub2e4.</lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\">\uc774\uac83\uc740 \ud14c\uc2a4\ud2b8 \ud30c\uc77c\uc785\ub2c8\ub2e4.</lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\">\uc774\uac83\uc740 \ud14c\uc2a4\ud2b8 \ud30c\uc77c\uc785\ub2c8\ub2e4.</lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\">\uc774\uac83\uc740 \ud14c\uc2a4\ud2b8 \ud30c\uc77c\uc785\ub2c8\ub2e4.</lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 450,
+        "text_offset": 23,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc740",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5125000,
+        "duration_milliseconds": 425,
+        "text_offset": 27,
+        "word_length": 3,
+        "text": "\ud14c\uc2a4\ud2b8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9500000,
+        "duration_milliseconds": 787,
+        "text_offset": 31,
+        "word_length": 5,
+        "text": "\ud30c\uc77c\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeoseun-teseuteu-pailibnida-28ca38aa.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeoseun-teseuteu-pailibnida-28ca38aa.mp3"
+  },
+  {
+    "input_text": "<lang xml:lang=\"ko-KR\">\uc774\uac83\uc740 \ud14c\uc2a4\ud2b8 \ud30c\uc77c\uc785\ub2c8\ub2e4.</lang>",
+    "input_data": {
+      "input_text": "<lang xml:lang=\"ko-KR\">\uc774\uac83\uc740 \ud14c\uc2a4\ud2b8 \ud30c\uc77c\uc785\ub2c8\ub2e4.</lang>",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\">\uc774\uac83\uc740 \ud14c\uc2a4\ud2b8 \ud30c\uc77c\uc785\ub2c8\ub2e4.</lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-JennyMultilingualNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-JennyMultilingualNeural\">\n        <mstts:express-as style=\"newscast-casual\"><lang xml:lang=\"ko-KR\">\uc774\uac83\uc740 \ud14c\uc2a4\ud2b8 \ud30c\uc77c\uc785\ub2c8\ub2e4.</lang></mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 450,
+        "text_offset": 23,
+        "word_length": 3,
+        "text": "\uc774\uac83\uc740",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5125000,
+        "duration_milliseconds": 425,
+        "text_offset": 27,
+        "word_length": 3,
+        "text": "\ud14c\uc2a4\ud2b8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9500000,
+        "duration_milliseconds": 787,
+        "text_offset": 31,
+        "word_length": 5,
+        "text": "\ud30c\uc77c\uc785\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "lang-xml-lang-ko-kr-igeoseun-teseuteu-pailibnida-28ca38aa.mp3",
+    "final_audio": "lang-xml-lang-ko-kr-igeoseun-teseuteu-pailibnida-28ca38aa.mp3"
+  }
+]

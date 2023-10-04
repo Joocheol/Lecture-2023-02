@@ -1,0 +1,2 @@
+이것은 테스트 파일입니다.
+이것은 </lang><lang xml:lang="en-US">English</lang> <lang xml:lang="ko-KR">를 말하는 방법입니다.
