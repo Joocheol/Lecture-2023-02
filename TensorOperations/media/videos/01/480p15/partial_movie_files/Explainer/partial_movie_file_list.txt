@@ -3,3 +3,4 @@ file 'file:/Users/joocheolkim/Lecture-2023-02/TensorOperations/media/videos/01/4
 file 'file:/Users/joocheolkim/Lecture-2023-02/TensorOperations/media/videos/01/480p15/partial_movie_files/Explainer/uncached_00001.mp4'
 file 'file:/Users/joocheolkim/Lecture-2023-02/TensorOperations/media/videos/01/480p15/partial_movie_files/Explainer/uncached_00002.mp4'
 file 'file:/Users/joocheolkim/Lecture-2023-02/TensorOperations/media/videos/01/480p15/partial_movie_files/Explainer/uncached_00003.mp4'
+file 'file:/Users/joocheolkim/Lecture-2023-02/TensorOperations/media/videos/01/480p15/partial_movie_files/Explainer/uncached_00004.mp4'

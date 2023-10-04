@@ -35,9 +35,9 @@ class Explainer(VoiceoverScene):
     def construct(self):
         self.text = self.speech_setup("01.txt")
 
-        self.section_01()
-        self.section_02()
-        self.section_36()
+        # self.section_01()
+        # self.section_02()
+        self.section_15()
 
         #self.voice(None, 1)
 
@@ -55,13 +55,35 @@ class Explainer(VoiceoverScene):
         self.play(FadeOut(blist), FadeOut(t))
 
 
-
-
-
     def section_02(self):
         code = Code(file_name="Dense.py", tab_width=4, insert_line_no=False, background="window", language="python").rescale_to_fit(12,0)
-        self.play(FadeIn(code))
+        self.voice(FadeIn(code), 2)
+        self.wait()
+
+        f = MarkupText(r"<tt>output = relu(dot(input, W) + b)</tt>").scale(0.5)
+        self.voice(Write(f), 3)
+        self.voice(None, 4)
+        self.voice(f[12:24].animate.set_color(RED), 5)
+        self.voice(None, 6)
+        self.voice(f[12:26].animate.set_color(YELLOW), 7)
+        self.voice(None, 8)
+        self.voice(f[7:27].animate.set_color(BLUE), 9)
+        self.voice(None, 10)
+
+        f_2 = MarkupText(r"<tt>relu(x) = max(x, 0)</tt>").scale(0.5).next_to(f, DOWN)
+        self.play(Write(f_2))
+
+        self.play(FadeOut(code), FadeOut(f), FadeOut(f_2))
+        
+    def section_15(self):
+        t = Tex(r"Element-wise operations")
+        self.voice(Write(t), 15)
+        self.voice(None, 16)
+        self.voice(FadeOut(t), 17)
+        
+
+        code = Code(file_name="naive_relu.py", tab_width=4, insert_line_no=False, background="window", language="python").rescale_to_fit(12,0)
+        self.voice(FadeIn(code), 18)
+        self.wait()
 
 
-    def section_36(self):
-        pass
