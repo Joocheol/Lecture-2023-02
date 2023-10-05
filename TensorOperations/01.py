@@ -129,12 +129,29 @@ class Explainer(VoiceoverScene):
         mat2 = mat(Square(0.16), 4, 1)
         t = MarkupText(
             """
-            <tt>0123456789012345678901234//567890123456789\\0012345678\r901n2345/n6789012//n345678901234567890</tt>
-            """).scale(0.4)
+            <tt>import numpy as np</tt>\r
+            <tt>X = np.random.random((32,10))</tt>\r
+            <tt>Y = np.random()</tt>
+            <tt>    import numpy as np</tt>\r
+            <tt>X = np.random.random((32,10))</tt>\r
+            <tt>Y = np.random()</tt>
+            <tt>import numpy as np</tt>\r
+            <tt>X = np.random.random((32,10))</tt>\r
+            <tt>Y = np.random()</tt>
+            <tt>    import numpy as np</tt>\r
+            <tt>X = np.random.random((32,10))</tt>\r
+            <tt>Y = np.random()</tt>
+            """, font_size=24).scale(1)
         v = VGroup(mat1, mat2).arrange(RIGHT)
 
-        self.play(Create(t))
+        self.play(Create(t.to_corner(UL, buff=LARGE_BUFF)))
+        self.play(Indicate(t[0:20]))
+        a = Arrow().rotate(PI).move_to([t.get_right()[0]+1.0, t.get_top()[1]-0.1445, 0.0])
+        print(t.get_top()-t.get_bottom())
+        for i in range(10):
+            self.play(a.animate.shift(DOWN*0.335))
         self.wait()
+
 
 
 
