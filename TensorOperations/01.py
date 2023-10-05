@@ -38,7 +38,8 @@ class Explainer(VoiceoverScene):
 
         # self.section_01()
         # self.section_02()
-        self.section_15()
+        # self.section_15()
+        self.section_broadcasting()
 
         #self.voice(None, 1)
 
@@ -120,6 +121,19 @@ class Explainer(VoiceoverScene):
         self.voice(Circumscribe(code.code[4]), 25)
         self.voice(Circumscribe(code.code[5]), 26)
         self.play(FadeOut(code))
+        self.wait()
+
+
+    def section_broadcasting(self):
+        mat1 = mat(Dot(), 4, 4)
+        mat2 = mat(Square(0.16), 4, 1)
+        t = MarkupText(
+            """
+            <tt>0123456789012345678901234//567890123456789\\0012345678\r901n2345/n6789012//n345678901234567890</tt>
+            """).scale(0.4)
+        v = VGroup(mat1, mat2).arrange(RIGHT)
+
+        self.play(Create(t))
         self.wait()
 
 
